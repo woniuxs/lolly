@@ -5,78 +5,80 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇲 US美国20, server: 23.227.38.111, port: 443, type: vmess, uuid: 012c4549-17d2-475e-b1c1-a3b19cf36622, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: 2.freek1.xyz}}, udp: true}
-  - {name: 🇺🇲 US美国 16.2MB/s, server: cfcdn2.sanfencdn.net, port: 443, type: vmess, uuid: 91b9da49-cb53-4e82-9732-873693470440, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us3.sanfencdn1.com}}, udp: true}
-  - {name: 🇨🇦 CA加拿大2, server: 104.18.29.109, port: 443, type: vmess, uuid: be74ca03-6a7c-4c88-edc2-c6434ead0cfa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /16575, headers: {Host: cdnca1.digisport.shop}}, udp: true}
-  - {name: 🇺🇲 US美国36 239.4KB/s, server: dongtaiwang2.com, port: 443, type: vmess, uuid: 012c4549-17d2-475e-b1c1-a3b19cf36622, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: 2.freek1.xyz}}, udp: true}
-  - {name: 🇺🇲 US美国6 21.9MB/s, server: cfcdn2.sanfencdn.net, port: 2052, type: vmess, uuid: 91b9da49-cb53-4e82-9732-873693470440, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us6.sanfencdn2.com}}, udp: true}
-  - {name: 🇺🇲 _US_美国_52, server: 142.4.104.201, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689500157855, headers: {Host: www.51360818.xyz}}, udp: true}
-  - {name: 🇺🇲 _US_美国_31, server: 142.4.113.228, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689402073093, headers: {Host: www.15963678.xyz}}, udp: true}
-  - {name: 🇺🇲 _US_美国_137, server: 38.26.135.10, port: 44942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇲 _US_美国_80, server: 45.199.138.140, port: 49100, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇲 _US_美国_124, server: 142.4.127.23, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689402073093, headers: {Host: www.58058761.xyz}}, udp: true}
-  - {name: 🇺🇲 _US_美国_26, server: 142.4.113.229, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689500157855, headers: {Host: www.15963678.xyz}}, udp: true}
-  - {name: 🇺🇲 _US_美国_167, server: 108.186.116.187, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689326360096, headers: {Host: www.42576874.xyz}}, udp: true}
-  - {name: 🇺🇲 _US_美国_133, server: 192.74.235.204, port: 50040, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇲 _US_美国_87, server: 45.199.138.157, port: 30823, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇲 _US_美国_89, server: 156.225.67.76, port: 40098, type: vmess, uuid: 3e016c4d-986e-42df-838c-6046f3d89ecf, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇲 _US_美国_206, server: 142.0.132.8, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689500157855, headers: {Host: www.22866947.xyz}}, udp: true}
-  - {name: 🇺🇲 _US_美国_132, server: 142.4.121.228, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689500157855, headers: {Host: www.26167530.xyz}}, udp: true}
-  - {name: 🇺🇲 _US_美国_95, server: 137.175.0.149, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689500157855, headers: {Host: www.76381584.xyz}}, udp: true}
-  - {name: 🇺🇲 _US_美国_103, server: 192.74.232.230, port: 52312, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇲 _US_美国_138, server: 38.26.135.10, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689500157855, headers: {Host: www.39838266.xyz}}, udp: true}
-  - {name: 🇳🇱 _NL_荷兰_16, server: 154.85.1.2, port: 40424, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 _HK_香港_13, server: 156.245.8.66, port: 47855, type: vmess, uuid: 5a4d69ad-20a9-4941-b223-87bbd09f5f52, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇲 _US_美国_211, server: 137.175.15.210, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689326360096, headers: {Host: www.83524650.xyz}}, udp: true}
-  - {name: 科技网络 🇺🇸_49, server: 108.186.192.228, port: 45502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 科技网络 🇺🇸_24, server: 45.12.112.70, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689157081858, headers: {Host: www.88041707.xyz}}, udp: true}
-  - {name: 🇺🇲 _US_美国, server: 137.175.18.89, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇲 _US_美国_46, server: 192.74.229.205, port: 51592, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇲 _US_美国 2, server: 140.99.120.171, port: 57172, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇲 US美国32 507.5KB/s, server: 142.4.98.19, port: 54434, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇲 _US_美国_101, server: 198.200.56.102, port: 59422, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇲 _US_美国_33, server: 137.175.15.210, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689500157855, headers: {Host: www.83524650.xyz}}, udp: true}
-  - {name: 🇺🇲 _US_美国_131, server: 142.4.98.19, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689500157855, headers: {Host: www.44509549.xyz}}, udp: true}
-  - {name: 🇺🇲 _US_美国_53, server: 45.199.138.146, port: 42929, type: vmess, uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇲 _US_美国_64, server: 140.99.128.123, port: 58455, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇲 _US_美国_120, server: 142.4.125.84, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689402073093, headers: {Host: www.43706572.xyz}}, udp: true}
-  - {name: 科技网络 🇺🇸_54, server: 140.99.120.186, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1688813258218, headers: {Host: www.79204387.xyz}}, udp: true}
-  - {name: 🇺🇲 _US_美国_212, server: 192.74.232.230, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689500157855, headers: {Host: www.54092415.xyz}}, udp: true}
-  - {name: 科技网络 🇺🇸_17, server: 45.15.166.179, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689068934789, headers: {Host: www.52033619.xyz}}, udp: true}
-  - {name: 🇺🇲 _US_美国_207, server: 142.0.132.8, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689402073093, headers: {Host: www.22866947.xyz}}, udp: true}
-  - {name: 🇺🇲 _US_美国_96, server: 137.175.0.149, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689326360096, headers: {Host: www.76381584.xyz}}, udp: true}
-  - {name: 🇺🇲 _US_美国_203, server: 137.175.3.228, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689402073093, headers: {Host: www.33021824.xyz}}, udp: true}
-  - {name: 🇺🇲 _US_美国_43, server: 192.74.231.162, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689500157855, headers: {Host: www.70814184.xyz}}, udp: true}
-  - {name: 🇺🇲 _US_美国_25, server: 199.188.111.49, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689500157855, headers: {Host: www.62317155.xyz}}, udp: true}
-  - {name: 🇺🇲 _US_美国_81, server: 45.199.138.151, port: 49232, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca4690dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇲 _US_美国_35, server: 137.175.15.210, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689241126044, headers: {Host: www.83524650.xyz}}, udp: true}
-  - {name: 🇺🇲 _US_美国_155, server: 108.186.4.5, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689500157855, headers: {Host: www.42438779.xyz}}, udp: true}
-  - {name: 🇺🇲 _US_美国 3, server: 137.175.58.132, port: 53999, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇲 _US_美国 4, server: 108.186.192.228, port: 45502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇳🇱 NL荷兰4 1.9MB/s, server: 156.249.18.36, port: 48222, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇳🇱 NL荷兰 12.6MB/s, server: 154.85.1.2, port: 40424, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇳🇱 NL荷兰3 16.7MB/s, server: 37.218.240.112, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: qGjmI8WQlF0tfhDbkLqGdN, udp: true}
-  - {name: 🇺🇲 _US_美国_125, server: 142.4.127.26, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689402073093, headers: {Host: www.58058761.xyz}}, udp: true}
-  - {name: 🇺🇲 _US_美国_197, server: 140.99.120.171, port: 57172, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇲 _US_美国_55, server: 107.148.193.116, port: 53404, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇲 _US_美国_208, server: 142.0.132.8, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689326360096, headers: {Host: www.22866947.xyz}}, udp: true}
-  - {name: 🇺🇲 _US_美国_69, server: 137.175.58.148, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689500157855, headers: {Host: www.87606143.xyz}}, udp: true}
-  - {name: 🇺🇲 _US_美国_185, server: 198.2.208.70, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689500157855, headers: {Host: www.71653718.xyz}}, udp: true}
-  - {name: 🇺🇲 _US_美国_159, server: 108.186.116.187, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689500157855, headers: {Host: www.42576874.xyz}}, udp: true}
-  - {name: 科技网络 🇺🇸_43, server: 74.217.182.98, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689157081858, headers: {Host: www.59197212.xyz}}, udp: true}
-  - {name: 🇺🇲 _US_美国_214, server: 198.2.199.58, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689500157855, headers: {Host: www.47722380.xyz}}, udp: true}
-  - {name: 🇺🇲 _US_美国_162, server: 45.86.8.3, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689500157855, headers: {Host: www.68844076.xyz}}, udp: true}
-  - {name: 🇺🇲 _US_美国_108, server: 137.175.86.184, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇲 _US_美国 5, server: 137.175.58.77, port: 40071, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇲 _US_美国_209, server: 198.2.203.139, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689500157855, headers: {Host: www.68339205.xyz}}, udp: true}
-  - {name: 🇺🇲 _US_美国_213, server: 137.175.58.77, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689500157855, headers: {Host: www.40735439.xyz}}, udp: true}
-  - {name: 🇺🇲 _US_美国_61, server: 108.186.4.5, port: 42382, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇲 _US_美国_77, server: 108.186.116.187, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689402073093, headers: {Host: www.42576874.xyz}}, udp: true}
-  - {name: 🇺🇲 _US_美国 6, server: 137.175.18.91, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇲 _US_美国_63, server: 74.217.182.115, port: 54432, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇲 _US_美国_74, server: 140.99.49.6, port: 49982, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇲 _US_美国_164, server: 192.74.228.167, port: 443, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689500157855, headers: {Host: www.59274706.xyz}}, udp: true}
-  - {name: 🇺🇲 _US_美国_153, server: 140.99.142.78, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689500157855, headers: {Host: www.83993175.xyz}}, udp: true}
+  - {name: 🇭🇰 _CN_香港_3, server: qzcn2-01.dajuzi.cc, port: 15598, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇲 _US_美国_229, server: us.mlxg.org, port: 80, type: vmess, uuid: c7442852-5a48-4456-8783-b7b8eebbca6c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us1.mlxg.org}}, udp: true}
+  - {name: 🇺🇲 _US_美国_113, server: jp.mlxg.org, port: 80, type: vmess, uuid: c7442852-5a48-4456-8783-b7b8eebbca6c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us1.mlxg.org}}, udp: true}
+  - {name: 🇺🇲 _US_美国_214, server: us.mlxg.org, port: 80, type: vmess, uuid: c7442852-5a48-4456-8783-b7b8eebbca6c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp2.mlxg.org}}, udp: true}
+  - {name: 🇺🇲 _US_美国_219, server: hk.mlxg.org, port: 80, type: vmess, uuid: c7442852-5a48-4456-8783-b7b8eebbca6c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp2.mlxg.org}}, udp: true}
+  - {name: 🇺🇲 _US_美国_212, server: hk.mlxg.org, port: 80, type: vmess, uuid: c7442852-5a48-4456-8783-b7b8eebbca6c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us1.mlxg.org}}, udp: true}
+  - {name: 🇺🇲 _US_美国_197, server: sg.mlxg.org, port: 80, type: vmess, uuid: c7442852-5a48-4456-8783-b7b8eebbca6c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp2.mlxg.org}}, udp: true}
+  - {name: 🇺🇲 _US_美国_239, server: cdn.ikuan.dev, port: 2052, type: vmess, uuid: 3185c2f3-4246-49c4-ba8a-5ea8fb2ef6b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /FreeForGFW, headers: {Host: freeforgfw.ikuan.dev}}, udp: true}
+  - {name: 🇺🇲 _US_美国_246, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
+  - {name: 🇺🇲 _US_美国_216, server: digitalocean.com, port: 8080, type: vmess, uuid: 5f098028-ea22-42ea-abfd-9222cb298b74, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vceu.vpn66.eu.org}}, udp: true}
+  - {name: 🇺🇲 _US_美国_39, server: 198.2.203.61, port: 44672, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇲 _US_美国_174, server: 38.63.0.84, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689673828070, headers: {Host: www.19458162.xyz}}, udp: true}
+  - {name: 🇺🇲 _US_美国_188, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
+  - {name: 🇸🇬 _SG_新加坡_35, server: pqawszf.aiopen.cfd, port: 443, type: trojan, password: 7ad2a5e0-906b-4b3e-97bb-b5f3992cb19d, sni: pqawszf.aiopen.cfd, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇲 _US_美国_184, server: 142.4.127.28, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689673828070, headers: {Host: www.58058761.xyz}}, udp: true}
+  - {name: 🇺🇲 _US_美国_245, server: 156.225.67.81, port: 443, type: vmess, uuid: 3fd637ad-46fe-4f85-a6e8-86b00bca1122, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689402073093, headers: {Host: www.13340198.xyz}}, udp: true}
+  - {name: 🇺🇲 _US_美国_83, server: 137.175.18.75, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689767805929, headers: {Host: www.66273264.xyz}}, udp: true}
+  - {name: 🇺🇲 _US_美国_106, server: 156.225.67.48, port: 48123, type: vmess, uuid: 3ca912da-6ac2-418f-b9cf-45b6f694579b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇲 _US_美国_164, server: 142.4.115.171, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689767805929, headers: {Host: www.53997395.xyz}}, udp: true}
+  - {name: 🇺🇲 _US_美国_196, server: 156.225.67.125, port: 52801, type: vmess, uuid: 3a3c8a9c-334e-4360-adb8-a80a57ddcbbf, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 _HK_香港_16, server: 156.245.8.150, port: 44149, type: vmess, uuid: 84d1de11-ce12-4a15-8312-1338356d4ac4, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇲 _US_美国_73, server: 142.4.126.65, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689767805929, headers: {Host: www.28820006.xyz}}, udp: true}
+  - {name: 🇺🇲 _US_美国_161, server: 192.74.234.92, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689767805929, headers: {Host: www.14278907.xyz}}, udp: true}
+  - {name: 🇺🇲 _US_美国_172, server: 108.186.192.225, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689767805929, headers: {Host: www.66880458.xyz}}, udp: true}
+  - {name: 🇺🇲 _US_美国_237, server: 140.99.120.186, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689068934789, headers: {Host: www.79204387.xyz}}, udp: true}
+  - {name: 🇺🇲 _US_美国_70, server: 142.4.106.214, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689767805929, headers: {Host: www.45176089.xyz}}, udp: true}
+  - {name: 🇺🇲 _US_美国_114, server: 45.199.138.173, port: 42001, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd5128, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇲 _US_美国_137, server: 142.4.110.103, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689588497765, headers: {Host: www.64830206.xyz}}, udp: true}
+  - {name: 🇺🇲 _US_美国_156, server: 142.4.126.43, port: 44392, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇲 _US_美国_235, server: 162.159.50.55, port: 8880, type: vmess, uuid: d7ca2363-81c2-43a0-f141-352815da3ac3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
+  - {name: 🇫🇷 _FR_法国_7, server: 156.249.18.163, port: 42292, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇲 _US_美国_79, server: 192.74.231.110, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689767805929, headers: {Host: www.73218290.xyz}}, udp: true}
+  - {name: 🇺🇲 _US_美国_84, server: 192.74.231.110, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689673828070, headers: {Host: www.73218290.xyz}}, udp: true}
+  - {name: 🇺🇲 _US_美国_111, server: 45.199.138.168, port: 49555, type: vmess, uuid: 6e79eea4-5f72-4683-ad0e-5339f013421b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇲 _US_美国_166, server: 108.186.208.130, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689767805929, headers: {Host: www.17661867.xyz}}, udp: true}
+  - {name: 🇺🇲 _US_美国_170, server: 142.4.126.20, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689767805929, headers: {Host: www.26355762.xyz}}, udp: true}
+  - {name: 🇺🇲 _US_美国_228, server: amszxc.66666654.xyz, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
+  - {name: 🇺🇲 _US_美国_139, server: 140.99.49.59, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689767805929, headers: {Host: www.79367975.xyz}}, udp: true}
+  - {name: 🇺🇲 _US_美国_150, server: 140.99.49.59, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689673828070, headers: {Host: www.79367975.xyz}}, udp: true}
+  - {name: 🇫🇷 _FR_法国_10, server: 156.249.18.137, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689673828070, headers: {Host: www.69414502.xyz}}, udp: true}
+  - {name: 🇳🇱 _NL_荷兰_28, server: 154.84.1.101, port: 52801, type: vmess, uuid: 3a3c8a9c-334e-4360-adb8-a80a57ddcbbf, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇲 _US_美国_116, server: 45.199.138.146, port: 42929, type: vmess, uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇲 _US_美国_126, server: 156.225.67.148, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689767805929, headers: {Host: www.84938863.xyz}}, udp: true}
+  - {name: 🇺🇲 _US_美国_133, server: 140.99.120.173, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689673828070, headers: {Host: www.22716613.xyz}}, udp: true}
+  - {name: 🇺🇲 _US_美国_154, server: 140.99.120.173, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689767805929, headers: {Host: www.22716613.xyz}}, udp: true}
+  - {name: 🇺🇲 _US_美国_160, server: 198.2.203.139, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689500157855, headers: {Host: www.68339205.xyz}}, udp: true}
+  - {name: 🇭🇰 _HK_香港_20, server: 156.245.8.248, port: 443, type: vmess, uuid: 964bf499-9ec0-4378-92b6-87d8d861b2d0, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689767805929, headers: {Host: www.81678034.xyz}}, udp: true}
+  - {name: 🇭🇰 _HK_香港_22, server: 156.245.8.132, port: 31920, type: vmess, uuid: bd249e37-7359-41ee-84a7-09e49e0ec5c4, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _SC_塞舌尔_30, server: 156.251.135.14, port: 53302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇲 _US_美国_152, server: 192.74.232.226, port: 52312, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇲 _US_美国_157, server: 38.26.135.5, port: 44942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇲 _US_美国_181, server: 156.225.67.114, port: 443, type: vmess, uuid: b8df3ef1-887f-4ee4-855f-4f80416c2464, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689673828070, headers: {Host: www.12460158.xyz}}, udp: true}
+  - {name: 🇺🇲 _US_美国_187, server: 140.99.129.244, port: 48901, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 _SG_新加坡_32, server: pqawszf.aiopen.cfd, port: 443, type: trojan, password: 7ad2a5e0-906b-4b3e-97bb-b5f3992cb19d, sni: pqawszf.aiopen.cfd, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇲 _US_美国_89, server: 45.199.138.98, port: 43332, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇲 _US_美国_110, server: 156.225.67.38, port: 44866, type: vmess, uuid: de491802-233e-47f2-8c6c-d19bcf5bd56b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇲 _US_美国_165, server: 140.99.120.187, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689673828070, headers: {Host: www.79204387.xyz}}, udp: true}
+  - {name: 🇺🇲 _US_美国_223, server: 156.225.67.102, port: 47792, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇲 _US_美国_182, server: 142.4.127.28, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689767805929, headers: {Host: www.58058761.xyz}}, udp: true}
+  - {name: 🇺🇲 _US_美国_241, server: 198.2.218.207, port: 51203, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 _SG_新加坡_34, server: pqawszf.aiopen.cfd, port: 443, type: trojan, password: 7ad2a5e0-906b-4b3e-97bb-b5f3992cb19d, sni: pqawszf.aiopen.cfd, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇲 _US_美国_103, server: 156.225.67.76, port: 44098, type: vmess, uuid: 3e016c4d-986e-42df-838c-6046f3d89ecf, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇲 _US_美国_179, server: 108.186.192.225, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689673828070, headers: {Host: www.66880458.xyz}}, udp: true}
+  - {name: 🇺🇲 _US_美国_208, server: 156.225.67.103, port: 47792, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇲 _US_美国_81, server: 45.199.138.166, port: 55016, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇲 _US_美国_151, server: 140.99.49.59, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689588497765, headers: {Host: www.79367975.xyz}}, udp: true}
+  - {name: 🇺🇲 _US_美国_131, server: 142.4.112.135, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689767805929, headers: {Host: www.80128693.xyz}}, udp: true}
+  - {name: 🇺🇲 _US_美国_243, server: 156.225.67.81, port: 443, type: vmess, uuid: 3fd637ad-46fe-4f85-a6e8-86b00bca1122, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689500157855, headers: {Host: www.13340198.xyz}}, udp: true}
+  - {name: 🇺🇲 _US_美国_254, server: sg.mlxg.org, port: 80, type: vmess, uuid: c7442852-5a48-4456-8783-b7b8eebbca6c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us1.mlxg.org}}, udp: true}
+  - {name: 🇫🇷 _FR_法国_6, server: 156.249.18.14, port: 48111, type: vmess, uuid: 375e70f0-5d46-476f-8d69-0fb35c5548a9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 _HK_香港_14, server: 156.245.8.67, port: 47855, type: vmess, uuid: 5a4d69ad-20a9-4941-b223-87bbd09f5f52, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇲 _US_美国_123, server: 23.224.255.174, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689767805929, headers: {Host: www.53638055.xyz}}, udp: true}
+  - {name: 🇺🇲 _US_美国_136, server: 108.186.116.187, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689767805929, headers: {Host: www.42576874.xyz}}, udp: true}
+  - {name: 🇳🇱 _NL_荷兰_25, server: 154.85.1.128, port: 40424, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 手动切换
     type: select
@@ -89,223 +91,230 @@ proxy-groups:
       - 专线
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇲 US美国20
-      - 🇺🇲 US美国 16.2MB/s
-      - 🇨🇦 CA加拿大2
-      - 🇺🇲 US美国36 239.4KB/s
-      - 🇺🇲 US美国6 21.9MB/s
-      - 🇺🇲 _US_美国_52
-      - 🇺🇲 _US_美国_31
-      - 🇺🇲 _US_美国_137
-      - 🇺🇲 _US_美国_80
-      - 🇺🇲 _US_美国_124
-      - 🇺🇲 _US_美国_26
-      - 🇺🇲 _US_美国_167
-      - 🇺🇲 _US_美国_133
-      - 🇺🇲 _US_美国_87
-      - 🇺🇲 _US_美国_89
-      - 🇺🇲 _US_美国_206
-      - 🇺🇲 _US_美国_132
-      - 🇺🇲 _US_美国_95
-      - 🇺🇲 _US_美国_103
-      - 🇺🇲 _US_美国_138
-      - 🇳🇱 _NL_荷兰_16
-      - 🇭🇰 _HK_香港_13
-      - 🇺🇲 _US_美国_211
-      - 科技网络 🇺🇸_49
-      - 科技网络 🇺🇸_24
-      - 🇺🇲 _US_美国
-      - 🇺🇲 _US_美国_46
-      - 🇺🇲 _US_美国 2
-      - 🇺🇲 US美国32 507.5KB/s
-      - 🇺🇲 _US_美国_101
-      - 🇺🇲 _US_美国_33
-      - 🇺🇲 _US_美国_131
-      - 🇺🇲 _US_美国_53
-      - 🇺🇲 _US_美国_64
-      - 🇺🇲 _US_美国_120
-      - 科技网络 🇺🇸_54
-      - 🇺🇲 _US_美国_212
-      - 科技网络 🇺🇸_17
-      - 🇺🇲 _US_美国_207
-      - 🇺🇲 _US_美国_96
-      - 🇺🇲 _US_美国_203
-      - 🇺🇲 _US_美国_43
-      - 🇺🇲 _US_美国_25
-      - 🇺🇲 _US_美国_81
-      - 🇺🇲 _US_美国_35
-      - 🇺🇲 _US_美国_155
-      - 🇺🇲 _US_美国 3
-      - 🇺🇲 _US_美国 4
-      - 🇳🇱 NL荷兰4 1.9MB/s
-      - 🇳🇱 NL荷兰 12.6MB/s
-      - 🇳🇱 NL荷兰3 16.7MB/s
-      - 🇺🇲 _US_美国_125
-      - 🇺🇲 _US_美国_197
-      - 🇺🇲 _US_美国_55
-      - 🇺🇲 _US_美国_208
-      - 🇺🇲 _US_美国_69
-      - 🇺🇲 _US_美国_185
-      - 🇺🇲 _US_美国_159
-      - 科技网络 🇺🇸_43
+      - 🇭🇰 _CN_香港_3
+      - 🇺🇲 _US_美国_229
+      - 🇺🇲 _US_美国_113
       - 🇺🇲 _US_美国_214
-      - 🇺🇲 _US_美国_162
-      - 🇺🇲 _US_美国_108
-      - 🇺🇲 _US_美国 5
-      - 🇺🇲 _US_美国_209
-      - 🇺🇲 _US_美国_213
-      - 🇺🇲 _US_美国_61
-      - 🇺🇲 _US_美国_77
-      - 🇺🇲 _US_美国 6
-      - 🇺🇲 _US_美国_63
-      - 🇺🇲 _US_美国_74
+      - 🇺🇲 _US_美国_219
+      - 🇺🇲 _US_美国_212
+      - 🇺🇲 _US_美国_197
+      - 🇺🇲 _US_美国_239
+      - 🇺🇲 _US_美国_246
+      - 🇺🇲 _US_美国_216
+      - 🇺🇲 _US_美国_39
+      - 🇺🇲 _US_美国_174
+      - 🇺🇲 _US_美国_188
+      - 🇸🇬 _SG_新加坡_35
+      - 🇺🇲 _US_美国_184
+      - 🇺🇲 _US_美国_245
+      - 🇺🇲 _US_美国_83
+      - 🇺🇲 _US_美国_106
       - 🇺🇲 _US_美国_164
-      - 🇺🇲 _US_美国_153
+      - 🇺🇲 _US_美国_196
+      - 🇭🇰 _HK_香港_16
+      - 🇺🇲 _US_美国_73
+      - 🇺🇲 _US_美国_161
+      - 🇺🇲 _US_美国_172
+      - 🇺🇲 _US_美国_237
+      - 🇺🇲 _US_美国_70
+      - 🇺🇲 _US_美国_114
+      - 🇺🇲 _US_美国_137
+      - 🇺🇲 _US_美国_156
+      - 🇺🇲 _US_美国_235
+      - 🇫🇷 _FR_法国_7
+      - 🇺🇲 _US_美国_79
+      - 🇺🇲 _US_美国_84
+      - 🇺🇲 _US_美国_111
+      - 🇺🇲 _US_美国_166
+      - 🇺🇲 _US_美国_170
+      - 🇺🇲 _US_美国_228
+      - 🇺🇲 _US_美国_139
+      - 🇺🇲 _US_美国_150
+      - 🇫🇷 _FR_法国_10
+      - 🇳🇱 _NL_荷兰_28
+      - 🇺🇲 _US_美国_116
+      - 🇺🇲 _US_美国_126
+      - 🇺🇲 _US_美国_133
+      - 🇺🇲 _US_美国_154
+      - 🇺🇲 _US_美国_160
+      - 🇭🇰 _HK_香港_20
+      - 🇭🇰 _HK_香港_22
+      - _SC_塞舌尔_30
+      - 🇺🇲 _US_美国_152
+      - 🇺🇲 _US_美国_157
+      - 🇺🇲 _US_美国_181
+      - 🇺🇲 _US_美国_187
+      - 🇸🇬 _SG_新加坡_32
+      - 🇺🇲 _US_美国_89
+      - 🇺🇲 _US_美国_110
+      - 🇺🇲 _US_美国_165
+      - 🇺🇲 _US_美国_223
+      - 🇺🇲 _US_美国_182
+      - 🇺🇲 _US_美国_241
+      - 🇸🇬 _SG_新加坡_34
+      - 🇺🇲 _US_美国_103
+      - 🇺🇲 _US_美国_179
+      - 🇺🇲 _US_美国_208
+      - 🇺🇲 _US_美国_81
+      - 🇺🇲 _US_美国_151
+      - 🇺🇲 _US_美国_131
+      - 🇺🇲 _US_美国_243
+      - 🇺🇲 _US_美国_254
+      - 🇫🇷 _FR_法国_6
+      - 🇭🇰 _HK_香港_14
+      - 🇺🇲 _US_美国_123
+      - 🇺🇲 _US_美国_136
+      - 🇳🇱 _NL_荷兰_25
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇲 US美国20
-      - 🇺🇲 US美国 16.2MB/s
-      - 🇨🇦 CA加拿大2
-      - 🇺🇲 US美国36 239.4KB/s
-      - 🇺🇲 US美国6 21.9MB/s
-      - 🇺🇲 _US_美国_52
-      - 🇺🇲 _US_美国_31
-      - 🇺🇲 _US_美国_137
-      - 🇺🇲 _US_美国_80
-      - 🇺🇲 _US_美国_124
-      - 🇺🇲 _US_美国_26
-      - 🇺🇲 _US_美国_167
-      - 🇺🇲 _US_美国_133
-      - 🇺🇲 _US_美国_87
-      - 🇺🇲 _US_美国_89
-      - 🇺🇲 _US_美国_206
-      - 🇺🇲 _US_美国_132
-      - 🇺🇲 _US_美国_95
-      - 🇺🇲 _US_美国_103
-      - 🇺🇲 _US_美国_138
-      - 🇳🇱 _NL_荷兰_16
-      - 🇭🇰 _HK_香港_13
-      - 🇺🇲 _US_美国_211
-      - 科技网络 🇺🇸_49
-      - 科技网络 🇺🇸_24
-      - 🇺🇲 _US_美国
-      - 🇺🇲 _US_美国_46
-      - 🇺🇲 _US_美国 2
-      - 🇺🇲 US美国32 507.5KB/s
-      - 🇺🇲 _US_美国_101
-      - 🇺🇲 _US_美国_33
-      - 🇺🇲 _US_美国_131
-      - 🇺🇲 _US_美国_53
-      - 🇺🇲 _US_美国_64
-      - 🇺🇲 _US_美国_120
-      - 科技网络 🇺🇸_54
-      - 🇺🇲 _US_美国_212
-      - 科技网络 🇺🇸_17
-      - 🇺🇲 _US_美国_207
-      - 🇺🇲 _US_美国_96
-      - 🇺🇲 _US_美国_203
-      - 🇺🇲 _US_美国_43
-      - 🇺🇲 _US_美国_25
-      - 🇺🇲 _US_美国_81
-      - 🇺🇲 _US_美国_35
-      - 🇺🇲 _US_美国_155
-      - 🇺🇲 _US_美国 3
-      - 🇺🇲 _US_美国 4
-      - 🇳🇱 NL荷兰4 1.9MB/s
-      - 🇳🇱 NL荷兰 12.6MB/s
-      - 🇳🇱 NL荷兰3 16.7MB/s
-      - 🇺🇲 _US_美国_125
-      - 🇺🇲 _US_美国_197
-      - 🇺🇲 _US_美国_55
-      - 🇺🇲 _US_美国_208
-      - 🇺🇲 _US_美国_69
-      - 🇺🇲 _US_美国_185
-      - 🇺🇲 _US_美国_159
-      - 科技网络 🇺🇸_43
+      - 🇭🇰 _CN_香港_3
+      - 🇺🇲 _US_美国_229
+      - 🇺🇲 _US_美国_113
       - 🇺🇲 _US_美国_214
-      - 🇺🇲 _US_美国_162
-      - 🇺🇲 _US_美国_108
-      - 🇺🇲 _US_美国 5
-      - 🇺🇲 _US_美国_209
-      - 🇺🇲 _US_美国_213
-      - 🇺🇲 _US_美国_61
-      - 🇺🇲 _US_美国_77
-      - 🇺🇲 _US_美国 6
-      - 🇺🇲 _US_美国_63
-      - 🇺🇲 _US_美国_74
+      - 🇺🇲 _US_美国_219
+      - 🇺🇲 _US_美国_212
+      - 🇺🇲 _US_美国_197
+      - 🇺🇲 _US_美国_239
+      - 🇺🇲 _US_美国_246
+      - 🇺🇲 _US_美国_216
+      - 🇺🇲 _US_美国_39
+      - 🇺🇲 _US_美国_174
+      - 🇺🇲 _US_美国_188
+      - 🇸🇬 _SG_新加坡_35
+      - 🇺🇲 _US_美国_184
+      - 🇺🇲 _US_美国_245
+      - 🇺🇲 _US_美国_83
+      - 🇺🇲 _US_美国_106
       - 🇺🇲 _US_美国_164
-      - 🇺🇲 _US_美国_153
+      - 🇺🇲 _US_美国_196
+      - 🇭🇰 _HK_香港_16
+      - 🇺🇲 _US_美国_73
+      - 🇺🇲 _US_美国_161
+      - 🇺🇲 _US_美国_172
+      - 🇺🇲 _US_美国_237
+      - 🇺🇲 _US_美国_70
+      - 🇺🇲 _US_美国_114
+      - 🇺🇲 _US_美国_137
+      - 🇺🇲 _US_美国_156
+      - 🇺🇲 _US_美国_235
+      - 🇫🇷 _FR_法国_7
+      - 🇺🇲 _US_美国_79
+      - 🇺🇲 _US_美国_84
+      - 🇺🇲 _US_美国_111
+      - 🇺🇲 _US_美国_166
+      - 🇺🇲 _US_美国_170
+      - 🇺🇲 _US_美国_228
+      - 🇺🇲 _US_美国_139
+      - 🇺🇲 _US_美国_150
+      - 🇫🇷 _FR_法国_10
+      - 🇳🇱 _NL_荷兰_28
+      - 🇺🇲 _US_美国_116
+      - 🇺🇲 _US_美国_126
+      - 🇺🇲 _US_美国_133
+      - 🇺🇲 _US_美国_154
+      - 🇺🇲 _US_美国_160
+      - 🇭🇰 _HK_香港_20
+      - 🇭🇰 _HK_香港_22
+      - _SC_塞舌尔_30
+      - 🇺🇲 _US_美国_152
+      - 🇺🇲 _US_美国_157
+      - 🇺🇲 _US_美国_181
+      - 🇺🇲 _US_美国_187
+      - 🇸🇬 _SG_新加坡_32
+      - 🇺🇲 _US_美国_89
+      - 🇺🇲 _US_美国_110
+      - 🇺🇲 _US_美国_165
+      - 🇺🇲 _US_美国_223
+      - 🇺🇲 _US_美国_182
+      - 🇺🇲 _US_美国_241
+      - 🇸🇬 _SG_新加坡_34
+      - 🇺🇲 _US_美国_103
+      - 🇺🇲 _US_美国_179
+      - 🇺🇲 _US_美国_208
+      - 🇺🇲 _US_美国_81
+      - 🇺🇲 _US_美国_151
+      - 🇺🇲 _US_美国_131
+      - 🇺🇲 _US_美国_243
+      - 🇺🇲 _US_美国_254
+      - 🇫🇷 _FR_法国_6
+      - 🇭🇰 _HK_香港_14
+      - 🇺🇲 _US_美国_123
+      - 🇺🇲 _US_美国_136
+      - 🇳🇱 _NL_荷兰_25
   - name: 🇭🇰 香港
     type: select
     proxies:
-      - 🇭🇰 _HK_香港_13
+      - 🇭🇰 _CN_香港_3
+      - 🇭🇰 _HK_香港_16
+      - 🇭🇰 _HK_香港_20
+      - 🇭🇰 _HK_香港_22
+      - 🇭🇰 _HK_香港_14
   - name: 🇺🇸 美国
     type: select
     proxies:
-      - 🇺🇲 US美国20
-      - 🇺🇲 US美国 16.2MB/s
-      - 🇺🇲 US美国36 239.4KB/s
-      - 🇺🇲 US美国6 21.9MB/s
-      - 🇺🇲 _US_美国_52
-      - 🇺🇲 _US_美国_31
-      - 🇺🇲 _US_美国_137
-      - 🇺🇲 _US_美国_80
-      - 🇺🇲 _US_美国_124
-      - 🇺🇲 _US_美国_26
-      - 🇺🇲 _US_美国_167
-      - 🇺🇲 _US_美国_133
-      - 🇺🇲 _US_美国_87
-      - 🇺🇲 _US_美国_89
-      - 🇺🇲 _US_美国_206
-      - 🇺🇲 _US_美国_132
-      - 🇺🇲 _US_美国_95
-      - 🇺🇲 _US_美国_103
-      - 🇺🇲 _US_美国_138
-      - 🇺🇲 _US_美国_211
-      - 🇺🇲 _US_美国
-      - 🇺🇲 _US_美国_46
-      - 🇺🇲 _US_美国 2
-      - 🇺🇲 US美国32 507.5KB/s
-      - 🇺🇲 _US_美国_101
-      - 🇺🇲 _US_美国_33
-      - 🇺🇲 _US_美国_131
-      - 🇺🇲 _US_美国_53
-      - 🇺🇲 _US_美国_64
-      - 🇺🇲 _US_美国_120
-      - 🇺🇲 _US_美国_212
-      - 🇺🇲 _US_美国_207
-      - 🇺🇲 _US_美国_96
-      - 🇺🇲 _US_美国_203
-      - 🇺🇲 _US_美国_43
-      - 🇺🇲 _US_美国_25
-      - 🇺🇲 _US_美国_81
-      - 🇺🇲 _US_美国_35
-      - 🇺🇲 _US_美国_155
-      - 🇺🇲 _US_美国 3
-      - 🇺🇲 _US_美国 4
-      - 🇺🇲 _US_美国_125
-      - 🇺🇲 _US_美国_197
-      - 🇺🇲 _US_美国_55
-      - 🇺🇲 _US_美国_208
-      - 🇺🇲 _US_美国_69
-      - 🇺🇲 _US_美国_185
-      - 🇺🇲 _US_美国_159
+      - 🇺🇲 _US_美国_229
+      - 🇺🇲 _US_美国_113
       - 🇺🇲 _US_美国_214
-      - 🇺🇲 _US_美国_162
-      - 🇺🇲 _US_美国_108
-      - 🇺🇲 _US_美国 5
-      - 🇺🇲 _US_美国_209
-      - 🇺🇲 _US_美国_213
-      - 🇺🇲 _US_美国_61
-      - 🇺🇲 _US_美国_77
-      - 🇺🇲 _US_美国 6
-      - 🇺🇲 _US_美国_63
-      - 🇺🇲 _US_美国_74
+      - 🇺🇲 _US_美国_219
+      - 🇺🇲 _US_美国_212
+      - 🇺🇲 _US_美国_197
+      - 🇺🇲 _US_美国_239
+      - 🇺🇲 _US_美国_246
+      - 🇺🇲 _US_美国_216
+      - 🇺🇲 _US_美国_39
+      - 🇺🇲 _US_美国_174
+      - 🇺🇲 _US_美国_188
+      - 🇺🇲 _US_美国_184
+      - 🇺🇲 _US_美国_245
+      - 🇺🇲 _US_美国_83
+      - 🇺🇲 _US_美国_106
       - 🇺🇲 _US_美国_164
-      - 🇺🇲 _US_美国_153
+      - 🇺🇲 _US_美国_196
+      - 🇺🇲 _US_美国_73
+      - 🇺🇲 _US_美国_161
+      - 🇺🇲 _US_美国_172
+      - 🇺🇲 _US_美国_237
+      - 🇺🇲 _US_美国_70
+      - 🇺🇲 _US_美国_114
+      - 🇺🇲 _US_美国_137
+      - 🇺🇲 _US_美国_156
+      - 🇺🇲 _US_美国_235
+      - 🇺🇲 _US_美国_79
+      - 🇺🇲 _US_美国_84
+      - 🇺🇲 _US_美国_111
+      - 🇺🇲 _US_美国_166
+      - 🇺🇲 _US_美国_170
+      - 🇺🇲 _US_美国_228
+      - 🇺🇲 _US_美国_139
+      - 🇺🇲 _US_美国_150
+      - 🇺🇲 _US_美国_116
+      - 🇺🇲 _US_美国_126
+      - 🇺🇲 _US_美国_133
+      - 🇺🇲 _US_美国_154
+      - 🇺🇲 _US_美国_160
+      - 🇺🇲 _US_美国_152
+      - 🇺🇲 _US_美国_157
+      - 🇺🇲 _US_美国_181
+      - 🇺🇲 _US_美国_187
+      - 🇺🇲 _US_美国_89
+      - 🇺🇲 _US_美国_110
+      - 🇺🇲 _US_美国_165
+      - 🇺🇲 _US_美国_223
+      - 🇺🇲 _US_美国_182
+      - 🇺🇲 _US_美国_241
+      - 🇺🇲 _US_美国_103
+      - 🇺🇲 _US_美国_179
+      - 🇺🇲 _US_美国_208
+      - 🇺🇲 _US_美国_81
+      - 🇺🇲 _US_美国_151
+      - 🇺🇲 _US_美国_131
+      - 🇺🇲 _US_美国_243
+      - 🇺🇲 _US_美国_254
+      - 🇺🇲 _US_美国_123
+      - 🇺🇲 _US_美国_136
   - name: 🇯🇵 日本
     type: select
     proxies:
@@ -313,7 +322,9 @@ proxy-groups:
   - name: 🇸🇬 新加坡
     type: select
     proxies:
-      - DIRECT
+      - 🇸🇬 _SG_新加坡_35
+      - 🇸🇬 _SG_新加坡_32
+      - 🇸🇬 _SG_新加坡_34
   - name: 🇹🇼 台湾
     type: select
     proxies:
@@ -336,84 +347,90 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 手动切换
-      - 🇭🇰 _HK_香港_13
+      - 🇭🇰 _CN_香港_3
+      - 🇭🇰 _HK_香港_16
+      - 🇭🇰 _HK_香港_20
+      - 🇭🇰 _HK_香港_22
+      - 🇭🇰 _HK_香港_14
   - name: 📹 YouTube
     type: select
     proxies:
       - 🚀 手动切换
       - ♻️ 自动选择
-      - 🇺🇲 US美国20
-      - 🇺🇲 US美国 16.2MB/s
-      - 🇨🇦 CA加拿大2
-      - 🇺🇲 US美国36 239.4KB/s
-      - 🇺🇲 US美国6 21.9MB/s
-      - 🇺🇲 _US_美国_52
-      - 🇺🇲 _US_美国_31
-      - 🇺🇲 _US_美国_137
-      - 🇺🇲 _US_美国_80
-      - 🇺🇲 _US_美国_124
-      - 🇺🇲 _US_美国_26
-      - 🇺🇲 _US_美国_167
-      - 🇺🇲 _US_美国_133
-      - 🇺🇲 _US_美国_87
-      - 🇺🇲 _US_美国_89
-      - 🇺🇲 _US_美国_206
-      - 🇺🇲 _US_美国_132
-      - 🇺🇲 _US_美国_95
-      - 🇺🇲 _US_美国_103
-      - 🇺🇲 _US_美国_138
-      - 🇳🇱 _NL_荷兰_16
-      - 🇭🇰 _HK_香港_13
-      - 🇺🇲 _US_美国_211
-      - 科技网络 🇺🇸_49
-      - 科技网络 🇺🇸_24
-      - 🇺🇲 _US_美国
-      - 🇺🇲 _US_美国_46
-      - 🇺🇲 _US_美国 2
-      - 🇺🇲 US美国32 507.5KB/s
-      - 🇺🇲 _US_美国_101
-      - 🇺🇲 _US_美国_33
-      - 🇺🇲 _US_美国_131
-      - 🇺🇲 _US_美国_53
-      - 🇺🇲 _US_美国_64
-      - 🇺🇲 _US_美国_120
-      - 科技网络 🇺🇸_54
-      - 🇺🇲 _US_美国_212
-      - 科技网络 🇺🇸_17
-      - 🇺🇲 _US_美国_207
-      - 🇺🇲 _US_美国_96
-      - 🇺🇲 _US_美国_203
-      - 🇺🇲 _US_美国_43
-      - 🇺🇲 _US_美国_25
-      - 🇺🇲 _US_美国_81
-      - 🇺🇲 _US_美国_35
-      - 🇺🇲 _US_美国_155
-      - 🇺🇲 _US_美国 3
-      - 🇺🇲 _US_美国 4
-      - 🇳🇱 NL荷兰4 1.9MB/s
-      - 🇳🇱 NL荷兰 12.6MB/s
-      - 🇳🇱 NL荷兰3 16.7MB/s
-      - 🇺🇲 _US_美国_125
-      - 🇺🇲 _US_美国_197
-      - 🇺🇲 _US_美国_55
-      - 🇺🇲 _US_美国_208
-      - 🇺🇲 _US_美国_69
-      - 🇺🇲 _US_美国_185
-      - 🇺🇲 _US_美国_159
-      - 科技网络 🇺🇸_43
+      - 🇭🇰 _CN_香港_3
+      - 🇺🇲 _US_美国_229
+      - 🇺🇲 _US_美国_113
       - 🇺🇲 _US_美国_214
-      - 🇺🇲 _US_美国_162
-      - 🇺🇲 _US_美国_108
-      - 🇺🇲 _US_美国 5
-      - 🇺🇲 _US_美国_209
-      - 🇺🇲 _US_美国_213
-      - 🇺🇲 _US_美国_61
-      - 🇺🇲 _US_美国_77
-      - 🇺🇲 _US_美国 6
-      - 🇺🇲 _US_美国_63
-      - 🇺🇲 _US_美国_74
+      - 🇺🇲 _US_美国_219
+      - 🇺🇲 _US_美国_212
+      - 🇺🇲 _US_美国_197
+      - 🇺🇲 _US_美国_239
+      - 🇺🇲 _US_美国_246
+      - 🇺🇲 _US_美国_216
+      - 🇺🇲 _US_美国_39
+      - 🇺🇲 _US_美国_174
+      - 🇺🇲 _US_美国_188
+      - 🇸🇬 _SG_新加坡_35
+      - 🇺🇲 _US_美国_184
+      - 🇺🇲 _US_美国_245
+      - 🇺🇲 _US_美国_83
+      - 🇺🇲 _US_美国_106
       - 🇺🇲 _US_美国_164
-      - 🇺🇲 _US_美国_153
+      - 🇺🇲 _US_美国_196
+      - 🇭🇰 _HK_香港_16
+      - 🇺🇲 _US_美国_73
+      - 🇺🇲 _US_美国_161
+      - 🇺🇲 _US_美国_172
+      - 🇺🇲 _US_美国_237
+      - 🇺🇲 _US_美国_70
+      - 🇺🇲 _US_美国_114
+      - 🇺🇲 _US_美国_137
+      - 🇺🇲 _US_美国_156
+      - 🇺🇲 _US_美国_235
+      - 🇫🇷 _FR_法国_7
+      - 🇺🇲 _US_美国_79
+      - 🇺🇲 _US_美国_84
+      - 🇺🇲 _US_美国_111
+      - 🇺🇲 _US_美国_166
+      - 🇺🇲 _US_美国_170
+      - 🇺🇲 _US_美国_228
+      - 🇺🇲 _US_美国_139
+      - 🇺🇲 _US_美国_150
+      - 🇫🇷 _FR_法国_10
+      - 🇳🇱 _NL_荷兰_28
+      - 🇺🇲 _US_美国_116
+      - 🇺🇲 _US_美国_126
+      - 🇺🇲 _US_美国_133
+      - 🇺🇲 _US_美国_154
+      - 🇺🇲 _US_美国_160
+      - 🇭🇰 _HK_香港_20
+      - 🇭🇰 _HK_香港_22
+      - _SC_塞舌尔_30
+      - 🇺🇲 _US_美国_152
+      - 🇺🇲 _US_美国_157
+      - 🇺🇲 _US_美国_181
+      - 🇺🇲 _US_美国_187
+      - 🇸🇬 _SG_新加坡_32
+      - 🇺🇲 _US_美国_89
+      - 🇺🇲 _US_美国_110
+      - 🇺🇲 _US_美国_165
+      - 🇺🇲 _US_美国_223
+      - 🇺🇲 _US_美国_182
+      - 🇺🇲 _US_美国_241
+      - 🇸🇬 _SG_新加坡_34
+      - 🇺🇲 _US_美国_103
+      - 🇺🇲 _US_美国_179
+      - 🇺🇲 _US_美国_208
+      - 🇺🇲 _US_美国_81
+      - 🇺🇲 _US_美国_151
+      - 🇺🇲 _US_美国_131
+      - 🇺🇲 _US_美国_243
+      - 🇺🇲 _US_美国_254
+      - 🇫🇷 _FR_法国_6
+      - 🇭🇰 _HK_香港_14
+      - 🇺🇲 _US_美国_123
+      - 🇺🇲 _US_美国_136
+      - 🇳🇱 _NL_荷兰_25
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -427,230 +444,236 @@ proxy-groups:
       - 🇸🇬 新加坡
       - 🇹🇼 台湾
       - 🚀 手动切换
-      - 🇺🇲 US美国20
-      - 🇺🇲 US美国 16.2MB/s
-      - 🇨🇦 CA加拿大2
-      - 🇺🇲 US美国36 239.4KB/s
-      - 🇺🇲 US美国6 21.9MB/s
-      - 🇺🇲 _US_美国_52
-      - 🇺🇲 _US_美国_31
-      - 🇺🇲 _US_美国_137
-      - 🇺🇲 _US_美国_80
-      - 🇺🇲 _US_美国_124
-      - 🇺🇲 _US_美国_26
-      - 🇺🇲 _US_美国_167
-      - 🇺🇲 _US_美国_133
-      - 🇺🇲 _US_美国_87
-      - 🇺🇲 _US_美国_89
-      - 🇺🇲 _US_美国_206
-      - 🇺🇲 _US_美国_132
-      - 🇺🇲 _US_美国_95
-      - 🇺🇲 _US_美国_103
-      - 🇺🇲 _US_美国_138
-      - 🇳🇱 _NL_荷兰_16
-      - 🇭🇰 _HK_香港_13
-      - 🇺🇲 _US_美国_211
-      - 科技网络 🇺🇸_49
-      - 科技网络 🇺🇸_24
-      - 🇺🇲 _US_美国
-      - 🇺🇲 _US_美国_46
-      - 🇺🇲 _US_美国 2
-      - 🇺🇲 US美国32 507.5KB/s
-      - 🇺🇲 _US_美国_101
-      - 🇺🇲 _US_美国_33
-      - 🇺🇲 _US_美国_131
-      - 🇺🇲 _US_美国_53
-      - 🇺🇲 _US_美国_64
-      - 🇺🇲 _US_美国_120
-      - 科技网络 🇺🇸_54
-      - 🇺🇲 _US_美国_212
-      - 科技网络 🇺🇸_17
-      - 🇺🇲 _US_美国_207
-      - 🇺🇲 _US_美国_96
-      - 🇺🇲 _US_美国_203
-      - 🇺🇲 _US_美国_43
-      - 🇺🇲 _US_美国_25
-      - 🇺🇲 _US_美国_81
-      - 🇺🇲 _US_美国_35
-      - 🇺🇲 _US_美国_155
-      - 🇺🇲 _US_美国 3
-      - 🇺🇲 _US_美国 4
-      - 🇳🇱 NL荷兰4 1.9MB/s
-      - 🇳🇱 NL荷兰 12.6MB/s
-      - 🇳🇱 NL荷兰3 16.7MB/s
-      - 🇺🇲 _US_美国_125
-      - 🇺🇲 _US_美国_197
-      - 🇺🇲 _US_美国_55
-      - 🇺🇲 _US_美国_208
-      - 🇺🇲 _US_美国_69
-      - 🇺🇲 _US_美国_185
-      - 🇺🇲 _US_美国_159
-      - 科技网络 🇺🇸_43
+      - 🇭🇰 _CN_香港_3
+      - 🇺🇲 _US_美国_229
+      - 🇺🇲 _US_美国_113
       - 🇺🇲 _US_美国_214
-      - 🇺🇲 _US_美国_162
-      - 🇺🇲 _US_美国_108
-      - 🇺🇲 _US_美国 5
-      - 🇺🇲 _US_美国_209
-      - 🇺🇲 _US_美国_213
-      - 🇺🇲 _US_美国_61
-      - 🇺🇲 _US_美国_77
-      - 🇺🇲 _US_美国 6
-      - 🇺🇲 _US_美国_63
-      - 🇺🇲 _US_美国_74
+      - 🇺🇲 _US_美国_219
+      - 🇺🇲 _US_美国_212
+      - 🇺🇲 _US_美国_197
+      - 🇺🇲 _US_美国_239
+      - 🇺🇲 _US_美国_246
+      - 🇺🇲 _US_美国_216
+      - 🇺🇲 _US_美国_39
+      - 🇺🇲 _US_美国_174
+      - 🇺🇲 _US_美国_188
+      - 🇸🇬 _SG_新加坡_35
+      - 🇺🇲 _US_美国_184
+      - 🇺🇲 _US_美国_245
+      - 🇺🇲 _US_美国_83
+      - 🇺🇲 _US_美国_106
       - 🇺🇲 _US_美国_164
-      - 🇺🇲 _US_美国_153
+      - 🇺🇲 _US_美国_196
+      - 🇭🇰 _HK_香港_16
+      - 🇺🇲 _US_美国_73
+      - 🇺🇲 _US_美国_161
+      - 🇺🇲 _US_美国_172
+      - 🇺🇲 _US_美国_237
+      - 🇺🇲 _US_美国_70
+      - 🇺🇲 _US_美国_114
+      - 🇺🇲 _US_美国_137
+      - 🇺🇲 _US_美国_156
+      - 🇺🇲 _US_美国_235
+      - 🇫🇷 _FR_法国_7
+      - 🇺🇲 _US_美国_79
+      - 🇺🇲 _US_美国_84
+      - 🇺🇲 _US_美国_111
+      - 🇺🇲 _US_美国_166
+      - 🇺🇲 _US_美国_170
+      - 🇺🇲 _US_美国_228
+      - 🇺🇲 _US_美国_139
+      - 🇺🇲 _US_美国_150
+      - 🇫🇷 _FR_法国_10
+      - 🇳🇱 _NL_荷兰_28
+      - 🇺🇲 _US_美国_116
+      - 🇺🇲 _US_美国_126
+      - 🇺🇲 _US_美国_133
+      - 🇺🇲 _US_美国_154
+      - 🇺🇲 _US_美国_160
+      - 🇭🇰 _HK_香港_20
+      - 🇭🇰 _HK_香港_22
+      - _SC_塞舌尔_30
+      - 🇺🇲 _US_美国_152
+      - 🇺🇲 _US_美国_157
+      - 🇺🇲 _US_美国_181
+      - 🇺🇲 _US_美国_187
+      - 🇸🇬 _SG_新加坡_32
+      - 🇺🇲 _US_美国_89
+      - 🇺🇲 _US_美国_110
+      - 🇺🇲 _US_美国_165
+      - 🇺🇲 _US_美国_223
+      - 🇺🇲 _US_美国_182
+      - 🇺🇲 _US_美国_241
+      - 🇸🇬 _SG_新加坡_34
+      - 🇺🇲 _US_美国_103
+      - 🇺🇲 _US_美国_179
+      - 🇺🇲 _US_美国_208
+      - 🇺🇲 _US_美国_81
+      - 🇺🇲 _US_美国_151
+      - 🇺🇲 _US_美国_131
+      - 🇺🇲 _US_美国_243
+      - 🇺🇲 _US_美国_254
+      - 🇫🇷 _FR_法国_6
+      - 🇭🇰 _HK_香港_14
+      - 🇺🇲 _US_美国_123
+      - 🇺🇲 _US_美国_136
+      - 🇳🇱 _NL_荷兰_25
   - name: 🎮👑👑 HBO MAX
     type: select
     proxies:
       - 🚀 手动切换
-      - 🇺🇲 US美国20
-      - 🇺🇲 US美国 16.2MB/s
-      - 🇨🇦 CA加拿大2
-      - 🇺🇲 US美国36 239.4KB/s
-      - 🇺🇲 US美国6 21.9MB/s
-      - 🇺🇲 _US_美国_52
-      - 🇺🇲 _US_美国_31
-      - 🇺🇲 _US_美国_137
-      - 🇺🇲 _US_美国_80
-      - 🇺🇲 _US_美国_124
-      - 🇺🇲 _US_美国_26
-      - 🇺🇲 _US_美国_167
-      - 🇺🇲 _US_美国_133
-      - 🇺🇲 _US_美国_87
-      - 🇺🇲 _US_美国_89
-      - 🇺🇲 _US_美国_206
-      - 🇺🇲 _US_美国_132
-      - 🇺🇲 _US_美国_95
-      - 🇺🇲 _US_美国_103
-      - 🇺🇲 _US_美国_138
-      - 🇳🇱 _NL_荷兰_16
-      - 🇭🇰 _HK_香港_13
-      - 🇺🇲 _US_美国_211
-      - 科技网络 🇺🇸_49
-      - 科技网络 🇺🇸_24
-      - 🇺🇲 _US_美国
-      - 🇺🇲 _US_美国_46
-      - 🇺🇲 _US_美国 2
-      - 🇺🇲 US美国32 507.5KB/s
-      - 🇺🇲 _US_美国_101
-      - 🇺🇲 _US_美国_33
-      - 🇺🇲 _US_美国_131
-      - 🇺🇲 _US_美国_53
-      - 🇺🇲 _US_美国_64
-      - 🇺🇲 _US_美国_120
-      - 科技网络 🇺🇸_54
-      - 🇺🇲 _US_美国_212
-      - 科技网络 🇺🇸_17
-      - 🇺🇲 _US_美国_207
-      - 🇺🇲 _US_美国_96
-      - 🇺🇲 _US_美国_203
-      - 🇺🇲 _US_美国_43
-      - 🇺🇲 _US_美国_25
-      - 🇺🇲 _US_美国_81
-      - 🇺🇲 _US_美国_35
-      - 🇺🇲 _US_美国_155
-      - 🇺🇲 _US_美国 3
-      - 🇺🇲 _US_美国 4
-      - 🇳🇱 NL荷兰4 1.9MB/s
-      - 🇳🇱 NL荷兰 12.6MB/s
-      - 🇳🇱 NL荷兰3 16.7MB/s
-      - 🇺🇲 _US_美国_125
-      - 🇺🇲 _US_美国_197
-      - 🇺🇲 _US_美国_55
-      - 🇺🇲 _US_美国_208
-      - 🇺🇲 _US_美国_69
-      - 🇺🇲 _US_美国_185
-      - 🇺🇲 _US_美国_159
-      - 科技网络 🇺🇸_43
+      - 🇭🇰 _CN_香港_3
+      - 🇺🇲 _US_美国_229
+      - 🇺🇲 _US_美国_113
       - 🇺🇲 _US_美国_214
-      - 🇺🇲 _US_美国_162
-      - 🇺🇲 _US_美国_108
-      - 🇺🇲 _US_美国 5
-      - 🇺🇲 _US_美国_209
-      - 🇺🇲 _US_美国_213
-      - 🇺🇲 _US_美国_61
-      - 🇺🇲 _US_美国_77
-      - 🇺🇲 _US_美国 6
-      - 🇺🇲 _US_美国_63
-      - 🇺🇲 _US_美国_74
+      - 🇺🇲 _US_美国_219
+      - 🇺🇲 _US_美国_212
+      - 🇺🇲 _US_美国_197
+      - 🇺🇲 _US_美国_239
+      - 🇺🇲 _US_美国_246
+      - 🇺🇲 _US_美国_216
+      - 🇺🇲 _US_美国_39
+      - 🇺🇲 _US_美国_174
+      - 🇺🇲 _US_美国_188
+      - 🇸🇬 _SG_新加坡_35
+      - 🇺🇲 _US_美国_184
+      - 🇺🇲 _US_美国_245
+      - 🇺🇲 _US_美国_83
+      - 🇺🇲 _US_美国_106
       - 🇺🇲 _US_美国_164
-      - 🇺🇲 _US_美国_153
+      - 🇺🇲 _US_美国_196
+      - 🇭🇰 _HK_香港_16
+      - 🇺🇲 _US_美国_73
+      - 🇺🇲 _US_美国_161
+      - 🇺🇲 _US_美国_172
+      - 🇺🇲 _US_美国_237
+      - 🇺🇲 _US_美国_70
+      - 🇺🇲 _US_美国_114
+      - 🇺🇲 _US_美国_137
+      - 🇺🇲 _US_美国_156
+      - 🇺🇲 _US_美国_235
+      - 🇫🇷 _FR_法国_7
+      - 🇺🇲 _US_美国_79
+      - 🇺🇲 _US_美国_84
+      - 🇺🇲 _US_美国_111
+      - 🇺🇲 _US_美国_166
+      - 🇺🇲 _US_美国_170
+      - 🇺🇲 _US_美国_228
+      - 🇺🇲 _US_美国_139
+      - 🇺🇲 _US_美国_150
+      - 🇫🇷 _FR_法国_10
+      - 🇳🇱 _NL_荷兰_28
+      - 🇺🇲 _US_美国_116
+      - 🇺🇲 _US_美国_126
+      - 🇺🇲 _US_美国_133
+      - 🇺🇲 _US_美国_154
+      - 🇺🇲 _US_美国_160
+      - 🇭🇰 _HK_香港_20
+      - 🇭🇰 _HK_香港_22
+      - _SC_塞舌尔_30
+      - 🇺🇲 _US_美国_152
+      - 🇺🇲 _US_美国_157
+      - 🇺🇲 _US_美国_181
+      - 🇺🇲 _US_美国_187
+      - 🇸🇬 _SG_新加坡_32
+      - 🇺🇲 _US_美国_89
+      - 🇺🇲 _US_美国_110
+      - 🇺🇲 _US_美国_165
+      - 🇺🇲 _US_美国_223
+      - 🇺🇲 _US_美国_182
+      - 🇺🇲 _US_美国_241
+      - 🇸🇬 _SG_新加坡_34
+      - 🇺🇲 _US_美国_103
+      - 🇺🇲 _US_美国_179
+      - 🇺🇲 _US_美国_208
+      - 🇺🇲 _US_美国_81
+      - 🇺🇲 _US_美国_151
+      - 🇺🇲 _US_美国_131
+      - 🇺🇲 _US_美国_243
+      - 🇺🇲 _US_美国_254
+      - 🇫🇷 _FR_法国_6
+      - 🇭🇰 _HK_香港_14
+      - 🇺🇲 _US_美国_123
+      - 🇺🇲 _US_美国_136
+      - 🇳🇱 _NL_荷兰_25
   - name: 🎥 HBOGO Asia
     type: select
     proxies:
       - 🚀 手动切换
-      - 🇺🇲 US美国20
-      - 🇺🇲 US美国 16.2MB/s
-      - 🇨🇦 CA加拿大2
-      - 🇺🇲 US美国36 239.4KB/s
-      - 🇺🇲 US美国6 21.9MB/s
-      - 🇺🇲 _US_美国_52
-      - 🇺🇲 _US_美国_31
-      - 🇺🇲 _US_美国_137
-      - 🇺🇲 _US_美国_80
-      - 🇺🇲 _US_美国_124
-      - 🇺🇲 _US_美国_26
-      - 🇺🇲 _US_美国_167
-      - 🇺🇲 _US_美国_133
-      - 🇺🇲 _US_美国_87
-      - 🇺🇲 _US_美国_89
-      - 🇺🇲 _US_美国_206
-      - 🇺🇲 _US_美国_132
-      - 🇺🇲 _US_美国_95
-      - 🇺🇲 _US_美国_103
-      - 🇺🇲 _US_美国_138
-      - 🇳🇱 _NL_荷兰_16
-      - 🇭🇰 _HK_香港_13
-      - 🇺🇲 _US_美国_211
-      - 科技网络 🇺🇸_49
-      - 科技网络 🇺🇸_24
-      - 🇺🇲 _US_美国
-      - 🇺🇲 _US_美国_46
-      - 🇺🇲 _US_美国 2
-      - 🇺🇲 US美国32 507.5KB/s
-      - 🇺🇲 _US_美国_101
-      - 🇺🇲 _US_美国_33
-      - 🇺🇲 _US_美国_131
-      - 🇺🇲 _US_美国_53
-      - 🇺🇲 _US_美国_64
-      - 🇺🇲 _US_美国_120
-      - 科技网络 🇺🇸_54
-      - 🇺🇲 _US_美国_212
-      - 科技网络 🇺🇸_17
-      - 🇺🇲 _US_美国_207
-      - 🇺🇲 _US_美国_96
-      - 🇺🇲 _US_美国_203
-      - 🇺🇲 _US_美国_43
-      - 🇺🇲 _US_美国_25
-      - 🇺🇲 _US_美国_81
-      - 🇺🇲 _US_美国_35
-      - 🇺🇲 _US_美国_155
-      - 🇺🇲 _US_美国 3
-      - 🇺🇲 _US_美国 4
-      - 🇳🇱 NL荷兰4 1.9MB/s
-      - 🇳🇱 NL荷兰 12.6MB/s
-      - 🇳🇱 NL荷兰3 16.7MB/s
-      - 🇺🇲 _US_美国_125
-      - 🇺🇲 _US_美国_197
-      - 🇺🇲 _US_美国_55
-      - 🇺🇲 _US_美国_208
-      - 🇺🇲 _US_美国_69
-      - 🇺🇲 _US_美国_185
-      - 🇺🇲 _US_美国_159
-      - 科技网络 🇺🇸_43
+      - 🇭🇰 _CN_香港_3
+      - 🇺🇲 _US_美国_229
+      - 🇺🇲 _US_美国_113
       - 🇺🇲 _US_美国_214
-      - 🇺🇲 _US_美国_162
-      - 🇺🇲 _US_美国_108
-      - 🇺🇲 _US_美国 5
-      - 🇺🇲 _US_美国_209
-      - 🇺🇲 _US_美国_213
-      - 🇺🇲 _US_美国_61
-      - 🇺🇲 _US_美国_77
-      - 🇺🇲 _US_美国 6
-      - 🇺🇲 _US_美国_63
-      - 🇺🇲 _US_美国_74
+      - 🇺🇲 _US_美国_219
+      - 🇺🇲 _US_美国_212
+      - 🇺🇲 _US_美国_197
+      - 🇺🇲 _US_美国_239
+      - 🇺🇲 _US_美国_246
+      - 🇺🇲 _US_美国_216
+      - 🇺🇲 _US_美国_39
+      - 🇺🇲 _US_美国_174
+      - 🇺🇲 _US_美国_188
+      - 🇸🇬 _SG_新加坡_35
+      - 🇺🇲 _US_美国_184
+      - 🇺🇲 _US_美国_245
+      - 🇺🇲 _US_美国_83
+      - 🇺🇲 _US_美国_106
       - 🇺🇲 _US_美国_164
-      - 🇺🇲 _US_美国_153
+      - 🇺🇲 _US_美国_196
+      - 🇭🇰 _HK_香港_16
+      - 🇺🇲 _US_美国_73
+      - 🇺🇲 _US_美国_161
+      - 🇺🇲 _US_美国_172
+      - 🇺🇲 _US_美国_237
+      - 🇺🇲 _US_美国_70
+      - 🇺🇲 _US_美国_114
+      - 🇺🇲 _US_美国_137
+      - 🇺🇲 _US_美国_156
+      - 🇺🇲 _US_美国_235
+      - 🇫🇷 _FR_法国_7
+      - 🇺🇲 _US_美国_79
+      - 🇺🇲 _US_美国_84
+      - 🇺🇲 _US_美国_111
+      - 🇺🇲 _US_美国_166
+      - 🇺🇲 _US_美国_170
+      - 🇺🇲 _US_美国_228
+      - 🇺🇲 _US_美国_139
+      - 🇺🇲 _US_美国_150
+      - 🇫🇷 _FR_法国_10
+      - 🇳🇱 _NL_荷兰_28
+      - 🇺🇲 _US_美国_116
+      - 🇺🇲 _US_美国_126
+      - 🇺🇲 _US_美国_133
+      - 🇺🇲 _US_美国_154
+      - 🇺🇲 _US_美国_160
+      - 🇭🇰 _HK_香港_20
+      - 🇭🇰 _HK_香港_22
+      - _SC_塞舌尔_30
+      - 🇺🇲 _US_美国_152
+      - 🇺🇲 _US_美国_157
+      - 🇺🇲 _US_美国_181
+      - 🇺🇲 _US_美国_187
+      - 🇸🇬 _SG_新加坡_32
+      - 🇺🇲 _US_美国_89
+      - 🇺🇲 _US_美国_110
+      - 🇺🇲 _US_美国_165
+      - 🇺🇲 _US_美国_223
+      - 🇺🇲 _US_美国_182
+      - 🇺🇲 _US_美国_241
+      - 🇸🇬 _SG_新加坡_34
+      - 🇺🇲 _US_美国_103
+      - 🇺🇲 _US_美国_179
+      - 🇺🇲 _US_美国_208
+      - 🇺🇲 _US_美国_81
+      - 🇺🇲 _US_美国_151
+      - 🇺🇲 _US_美国_131
+      - 🇺🇲 _US_美国_243
+      - 🇺🇲 _US_美国_254
+      - 🇫🇷 _FR_法国_6
+      - 🇭🇰 _HK_香港_14
+      - 🇺🇲 _US_美国_123
+      - 🇺🇲 _US_美国_136
+      - 🇳🇱 _NL_荷兰_25
   - name: 💿 AbemaTV
     type: select
     proxies:
@@ -659,847 +682,869 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 手动切换
-      - 🇺🇲 US美国20
-      - 🇺🇲 US美国 16.2MB/s
-      - 🇨🇦 CA加拿大2
-      - 🇺🇲 US美国36 239.4KB/s
-      - 🇺🇲 US美国6 21.9MB/s
-      - 🇺🇲 _US_美国_52
-      - 🇺🇲 _US_美国_31
-      - 🇺🇲 _US_美国_137
-      - 🇺🇲 _US_美国_80
-      - 🇺🇲 _US_美国_124
-      - 🇺🇲 _US_美国_26
-      - 🇺🇲 _US_美国_167
-      - 🇺🇲 _US_美国_133
-      - 🇺🇲 _US_美国_87
-      - 🇺🇲 _US_美国_89
-      - 🇺🇲 _US_美国_206
-      - 🇺🇲 _US_美国_132
-      - 🇺🇲 _US_美国_95
-      - 🇺🇲 _US_美国_103
-      - 🇺🇲 _US_美国_138
-      - 🇳🇱 _NL_荷兰_16
-      - 🇭🇰 _HK_香港_13
-      - 🇺🇲 _US_美国_211
-      - 科技网络 🇺🇸_49
-      - 科技网络 🇺🇸_24
-      - 🇺🇲 _US_美国
-      - 🇺🇲 _US_美国_46
-      - 🇺🇲 _US_美国 2
-      - 🇺🇲 US美国32 507.5KB/s
-      - 🇺🇲 _US_美国_101
-      - 🇺🇲 _US_美国_33
-      - 🇺🇲 _US_美国_131
-      - 🇺🇲 _US_美国_53
-      - 🇺🇲 _US_美国_64
-      - 🇺🇲 _US_美国_120
-      - 科技网络 🇺🇸_54
-      - 🇺🇲 _US_美国_212
-      - 科技网络 🇺🇸_17
-      - 🇺🇲 _US_美国_207
-      - 🇺🇲 _US_美国_96
-      - 🇺🇲 _US_美国_203
-      - 🇺🇲 _US_美国_43
-      - 🇺🇲 _US_美国_25
-      - 🇺🇲 _US_美国_81
-      - 🇺🇲 _US_美国_35
-      - 🇺🇲 _US_美国_155
-      - 🇺🇲 _US_美国 3
-      - 🇺🇲 _US_美国 4
-      - 🇳🇱 NL荷兰4 1.9MB/s
-      - 🇳🇱 NL荷兰 12.6MB/s
-      - 🇳🇱 NL荷兰3 16.7MB/s
-      - 🇺🇲 _US_美国_125
-      - 🇺🇲 _US_美国_197
-      - 🇺🇲 _US_美国_55
-      - 🇺🇲 _US_美国_208
-      - 🇺🇲 _US_美国_69
-      - 🇺🇲 _US_美国_185
-      - 🇺🇲 _US_美国_159
-      - 科技网络 🇺🇸_43
+      - 🇭🇰 _CN_香港_3
+      - 🇺🇲 _US_美国_229
+      - 🇺🇲 _US_美国_113
       - 🇺🇲 _US_美国_214
-      - 🇺🇲 _US_美国_162
-      - 🇺🇲 _US_美国_108
-      - 🇺🇲 _US_美国 5
-      - 🇺🇲 _US_美国_209
-      - 🇺🇲 _US_美国_213
-      - 🇺🇲 _US_美国_61
-      - 🇺🇲 _US_美国_77
-      - 🇺🇲 _US_美国 6
-      - 🇺🇲 _US_美国_63
-      - 🇺🇲 _US_美国_74
+      - 🇺🇲 _US_美国_219
+      - 🇺🇲 _US_美国_212
+      - 🇺🇲 _US_美国_197
+      - 🇺🇲 _US_美国_239
+      - 🇺🇲 _US_美国_246
+      - 🇺🇲 _US_美国_216
+      - 🇺🇲 _US_美国_39
+      - 🇺🇲 _US_美国_174
+      - 🇺🇲 _US_美国_188
+      - 🇸🇬 _SG_新加坡_35
+      - 🇺🇲 _US_美国_184
+      - 🇺🇲 _US_美国_245
+      - 🇺🇲 _US_美国_83
+      - 🇺🇲 _US_美国_106
       - 🇺🇲 _US_美国_164
-      - 🇺🇲 _US_美国_153
+      - 🇺🇲 _US_美国_196
+      - 🇭🇰 _HK_香港_16
+      - 🇺🇲 _US_美国_73
+      - 🇺🇲 _US_美国_161
+      - 🇺🇲 _US_美国_172
+      - 🇺🇲 _US_美国_237
+      - 🇺🇲 _US_美国_70
+      - 🇺🇲 _US_美国_114
+      - 🇺🇲 _US_美国_137
+      - 🇺🇲 _US_美国_156
+      - 🇺🇲 _US_美国_235
+      - 🇫🇷 _FR_法国_7
+      - 🇺🇲 _US_美国_79
+      - 🇺🇲 _US_美国_84
+      - 🇺🇲 _US_美国_111
+      - 🇺🇲 _US_美国_166
+      - 🇺🇲 _US_美国_170
+      - 🇺🇲 _US_美国_228
+      - 🇺🇲 _US_美国_139
+      - 🇺🇲 _US_美国_150
+      - 🇫🇷 _FR_法国_10
+      - 🇳🇱 _NL_荷兰_28
+      - 🇺🇲 _US_美国_116
+      - 🇺🇲 _US_美国_126
+      - 🇺🇲 _US_美国_133
+      - 🇺🇲 _US_美国_154
+      - 🇺🇲 _US_美国_160
+      - 🇭🇰 _HK_香港_20
+      - 🇭🇰 _HK_香港_22
+      - _SC_塞舌尔_30
+      - 🇺🇲 _US_美国_152
+      - 🇺🇲 _US_美国_157
+      - 🇺🇲 _US_美国_181
+      - 🇺🇲 _US_美国_187
+      - 🇸🇬 _SG_新加坡_32
+      - 🇺🇲 _US_美国_89
+      - 🇺🇲 _US_美国_110
+      - 🇺🇲 _US_美国_165
+      - 🇺🇲 _US_美国_223
+      - 🇺🇲 _US_美国_182
+      - 🇺🇲 _US_美国_241
+      - 🇸🇬 _SG_新加坡_34
+      - 🇺🇲 _US_美国_103
+      - 🇺🇲 _US_美国_179
+      - 🇺🇲 _US_美国_208
+      - 🇺🇲 _US_美国_81
+      - 🇺🇲 _US_美国_151
+      - 🇺🇲 _US_美国_131
+      - 🇺🇲 _US_美国_243
+      - 🇺🇲 _US_美国_254
+      - 🇫🇷 _FR_法国_6
+      - 🇭🇰 _HK_香港_14
+      - 🇺🇲 _US_美国_123
+      - 🇺🇲 _US_美国_136
+      - 🇳🇱 _NL_荷兰_25
   - name: 🎶 TikTok
     type: select
     proxies:
       - 🚀 手动切换
-      - 🇺🇲 US美国20
-      - 🇺🇲 US美国 16.2MB/s
-      - 🇨🇦 CA加拿大2
-      - 🇺🇲 US美国36 239.4KB/s
-      - 🇺🇲 US美国6 21.9MB/s
-      - 🇺🇲 _US_美国_52
-      - 🇺🇲 _US_美国_31
-      - 🇺🇲 _US_美国_137
-      - 🇺🇲 _US_美国_80
-      - 🇺🇲 _US_美国_124
-      - 🇺🇲 _US_美国_26
-      - 🇺🇲 _US_美国_167
-      - 🇺🇲 _US_美国_133
-      - 🇺🇲 _US_美国_87
-      - 🇺🇲 _US_美国_89
-      - 🇺🇲 _US_美国_206
-      - 🇺🇲 _US_美国_132
-      - 🇺🇲 _US_美国_95
-      - 🇺🇲 _US_美国_103
-      - 🇺🇲 _US_美国_138
-      - 🇳🇱 _NL_荷兰_16
-      - 🇭🇰 _HK_香港_13
-      - 🇺🇲 _US_美国_211
-      - 科技网络 🇺🇸_49
-      - 科技网络 🇺🇸_24
-      - 🇺🇲 _US_美国
-      - 🇺🇲 _US_美国_46
-      - 🇺🇲 _US_美国 2
-      - 🇺🇲 US美国32 507.5KB/s
-      - 🇺🇲 _US_美国_101
-      - 🇺🇲 _US_美国_33
-      - 🇺🇲 _US_美国_131
-      - 🇺🇲 _US_美国_53
-      - 🇺🇲 _US_美国_64
-      - 🇺🇲 _US_美国_120
-      - 科技网络 🇺🇸_54
-      - 🇺🇲 _US_美国_212
-      - 科技网络 🇺🇸_17
-      - 🇺🇲 _US_美国_207
-      - 🇺🇲 _US_美国_96
-      - 🇺🇲 _US_美国_203
-      - 🇺🇲 _US_美国_43
-      - 🇺🇲 _US_美国_25
-      - 🇺🇲 _US_美国_81
-      - 🇺🇲 _US_美国_35
-      - 🇺🇲 _US_美国_155
-      - 🇺🇲 _US_美国 3
-      - 🇺🇲 _US_美国 4
-      - 🇳🇱 NL荷兰4 1.9MB/s
-      - 🇳🇱 NL荷兰 12.6MB/s
-      - 🇳🇱 NL荷兰3 16.7MB/s
-      - 🇺🇲 _US_美国_125
-      - 🇺🇲 _US_美国_197
-      - 🇺🇲 _US_美国_55
-      - 🇺🇲 _US_美国_208
-      - 🇺🇲 _US_美国_69
-      - 🇺🇲 _US_美国_185
-      - 🇺🇲 _US_美国_159
-      - 科技网络 🇺🇸_43
+      - 🇭🇰 _CN_香港_3
+      - 🇺🇲 _US_美国_229
+      - 🇺🇲 _US_美国_113
       - 🇺🇲 _US_美国_214
-      - 🇺🇲 _US_美国_162
-      - 🇺🇲 _US_美国_108
-      - 🇺🇲 _US_美国 5
-      - 🇺🇲 _US_美国_209
-      - 🇺🇲 _US_美国_213
-      - 🇺🇲 _US_美国_61
-      - 🇺🇲 _US_美国_77
-      - 🇺🇲 _US_美国 6
-      - 🇺🇲 _US_美国_63
-      - 🇺🇲 _US_美国_74
+      - 🇺🇲 _US_美国_219
+      - 🇺🇲 _US_美国_212
+      - 🇺🇲 _US_美国_197
+      - 🇺🇲 _US_美国_239
+      - 🇺🇲 _US_美国_246
+      - 🇺🇲 _US_美国_216
+      - 🇺🇲 _US_美国_39
+      - 🇺🇲 _US_美国_174
+      - 🇺🇲 _US_美国_188
+      - 🇸🇬 _SG_新加坡_35
+      - 🇺🇲 _US_美国_184
+      - 🇺🇲 _US_美国_245
+      - 🇺🇲 _US_美国_83
+      - 🇺🇲 _US_美国_106
       - 🇺🇲 _US_美国_164
-      - 🇺🇲 _US_美国_153
+      - 🇺🇲 _US_美国_196
+      - 🇭🇰 _HK_香港_16
+      - 🇺🇲 _US_美国_73
+      - 🇺🇲 _US_美国_161
+      - 🇺🇲 _US_美国_172
+      - 🇺🇲 _US_美国_237
+      - 🇺🇲 _US_美国_70
+      - 🇺🇲 _US_美国_114
+      - 🇺🇲 _US_美国_137
+      - 🇺🇲 _US_美国_156
+      - 🇺🇲 _US_美国_235
+      - 🇫🇷 _FR_法国_7
+      - 🇺🇲 _US_美国_79
+      - 🇺🇲 _US_美国_84
+      - 🇺🇲 _US_美国_111
+      - 🇺🇲 _US_美国_166
+      - 🇺🇲 _US_美国_170
+      - 🇺🇲 _US_美国_228
+      - 🇺🇲 _US_美国_139
+      - 🇺🇲 _US_美国_150
+      - 🇫🇷 _FR_法国_10
+      - 🇳🇱 _NL_荷兰_28
+      - 🇺🇲 _US_美国_116
+      - 🇺🇲 _US_美国_126
+      - 🇺🇲 _US_美国_133
+      - 🇺🇲 _US_美国_154
+      - 🇺🇲 _US_美国_160
+      - 🇭🇰 _HK_香港_20
+      - 🇭🇰 _HK_香港_22
+      - _SC_塞舌尔_30
+      - 🇺🇲 _US_美国_152
+      - 🇺🇲 _US_美国_157
+      - 🇺🇲 _US_美国_181
+      - 🇺🇲 _US_美国_187
+      - 🇸🇬 _SG_新加坡_32
+      - 🇺🇲 _US_美国_89
+      - 🇺🇲 _US_美国_110
+      - 🇺🇲 _US_美国_165
+      - 🇺🇲 _US_美国_223
+      - 🇺🇲 _US_美国_182
+      - 🇺🇲 _US_美国_241
+      - 🇸🇬 _SG_新加坡_34
+      - 🇺🇲 _US_美国_103
+      - 🇺🇲 _US_美国_179
+      - 🇺🇲 _US_美国_208
+      - 🇺🇲 _US_美国_81
+      - 🇺🇲 _US_美国_151
+      - 🇺🇲 _US_美国_131
+      - 🇺🇲 _US_美国_243
+      - 🇺🇲 _US_美国_254
+      - 🇫🇷 _FR_法国_6
+      - 🇭🇰 _HK_香港_14
+      - 🇺🇲 _US_美国_123
+      - 🇺🇲 _US_美国_136
+      - 🇳🇱 _NL_荷兰_25
   - name: 🎧 Spotify
     type: select
     proxies:
       - 🚀 手动切换
       - 🎯 全球直连
-      - 🇺🇲 US美国20
-      - 🇺🇲 US美国 16.2MB/s
-      - 🇨🇦 CA加拿大2
-      - 🇺🇲 US美国36 239.4KB/s
-      - 🇺🇲 US美国6 21.9MB/s
-      - 🇺🇲 _US_美国_52
-      - 🇺🇲 _US_美国_31
-      - 🇺🇲 _US_美国_137
-      - 🇺🇲 _US_美国_80
-      - 🇺🇲 _US_美国_124
-      - 🇺🇲 _US_美国_26
-      - 🇺🇲 _US_美国_167
-      - 🇺🇲 _US_美国_133
-      - 🇺🇲 _US_美国_87
-      - 🇺🇲 _US_美国_89
-      - 🇺🇲 _US_美国_206
-      - 🇺🇲 _US_美国_132
-      - 🇺🇲 _US_美国_95
-      - 🇺🇲 _US_美国_103
-      - 🇺🇲 _US_美国_138
-      - 🇳🇱 _NL_荷兰_16
-      - 🇭🇰 _HK_香港_13
-      - 🇺🇲 _US_美国_211
-      - 科技网络 🇺🇸_49
-      - 科技网络 🇺🇸_24
-      - 🇺🇲 _US_美国
-      - 🇺🇲 _US_美国_46
-      - 🇺🇲 _US_美国 2
-      - 🇺🇲 US美国32 507.5KB/s
-      - 🇺🇲 _US_美国_101
-      - 🇺🇲 _US_美国_33
-      - 🇺🇲 _US_美国_131
-      - 🇺🇲 _US_美国_53
-      - 🇺🇲 _US_美国_64
-      - 🇺🇲 _US_美国_120
-      - 科技网络 🇺🇸_54
-      - 🇺🇲 _US_美国_212
-      - 科技网络 🇺🇸_17
-      - 🇺🇲 _US_美国_207
-      - 🇺🇲 _US_美国_96
-      - 🇺🇲 _US_美国_203
-      - 🇺🇲 _US_美国_43
-      - 🇺🇲 _US_美国_25
-      - 🇺🇲 _US_美国_81
-      - 🇺🇲 _US_美国_35
-      - 🇺🇲 _US_美国_155
-      - 🇺🇲 _US_美国 3
-      - 🇺🇲 _US_美国 4
-      - 🇳🇱 NL荷兰4 1.9MB/s
-      - 🇳🇱 NL荷兰 12.6MB/s
-      - 🇳🇱 NL荷兰3 16.7MB/s
-      - 🇺🇲 _US_美国_125
-      - 🇺🇲 _US_美国_197
-      - 🇺🇲 _US_美国_55
-      - 🇺🇲 _US_美国_208
-      - 🇺🇲 _US_美国_69
-      - 🇺🇲 _US_美国_185
-      - 🇺🇲 _US_美国_159
-      - 科技网络 🇺🇸_43
+      - 🇭🇰 _CN_香港_3
+      - 🇺🇲 _US_美国_229
+      - 🇺🇲 _US_美国_113
       - 🇺🇲 _US_美国_214
-      - 🇺🇲 _US_美国_162
-      - 🇺🇲 _US_美国_108
-      - 🇺🇲 _US_美国 5
-      - 🇺🇲 _US_美国_209
-      - 🇺🇲 _US_美国_213
-      - 🇺🇲 _US_美国_61
-      - 🇺🇲 _US_美国_77
-      - 🇺🇲 _US_美国 6
-      - 🇺🇲 _US_美国_63
-      - 🇺🇲 _US_美国_74
+      - 🇺🇲 _US_美国_219
+      - 🇺🇲 _US_美国_212
+      - 🇺🇲 _US_美国_197
+      - 🇺🇲 _US_美国_239
+      - 🇺🇲 _US_美国_246
+      - 🇺🇲 _US_美国_216
+      - 🇺🇲 _US_美国_39
+      - 🇺🇲 _US_美国_174
+      - 🇺🇲 _US_美国_188
+      - 🇸🇬 _SG_新加坡_35
+      - 🇺🇲 _US_美国_184
+      - 🇺🇲 _US_美国_245
+      - 🇺🇲 _US_美国_83
+      - 🇺🇲 _US_美国_106
       - 🇺🇲 _US_美国_164
-      - 🇺🇲 _US_美国_153
+      - 🇺🇲 _US_美国_196
+      - 🇭🇰 _HK_香港_16
+      - 🇺🇲 _US_美国_73
+      - 🇺🇲 _US_美国_161
+      - 🇺🇲 _US_美国_172
+      - 🇺🇲 _US_美国_237
+      - 🇺🇲 _US_美国_70
+      - 🇺🇲 _US_美国_114
+      - 🇺🇲 _US_美国_137
+      - 🇺🇲 _US_美国_156
+      - 🇺🇲 _US_美国_235
+      - 🇫🇷 _FR_法国_7
+      - 🇺🇲 _US_美国_79
+      - 🇺🇲 _US_美国_84
+      - 🇺🇲 _US_美国_111
+      - 🇺🇲 _US_美国_166
+      - 🇺🇲 _US_美国_170
+      - 🇺🇲 _US_美国_228
+      - 🇺🇲 _US_美国_139
+      - 🇺🇲 _US_美国_150
+      - 🇫🇷 _FR_法国_10
+      - 🇳🇱 _NL_荷兰_28
+      - 🇺🇲 _US_美国_116
+      - 🇺🇲 _US_美国_126
+      - 🇺🇲 _US_美国_133
+      - 🇺🇲 _US_美国_154
+      - 🇺🇲 _US_美国_160
+      - 🇭🇰 _HK_香港_20
+      - 🇭🇰 _HK_香港_22
+      - _SC_塞舌尔_30
+      - 🇺🇲 _US_美国_152
+      - 🇺🇲 _US_美国_157
+      - 🇺🇲 _US_美国_181
+      - 🇺🇲 _US_美国_187
+      - 🇸🇬 _SG_新加坡_32
+      - 🇺🇲 _US_美国_89
+      - 🇺🇲 _US_美国_110
+      - 🇺🇲 _US_美国_165
+      - 🇺🇲 _US_美国_223
+      - 🇺🇲 _US_美国_182
+      - 🇺🇲 _US_美国_241
+      - 🇸🇬 _SG_新加坡_34
+      - 🇺🇲 _US_美国_103
+      - 🇺🇲 _US_美国_179
+      - 🇺🇲 _US_美国_208
+      - 🇺🇲 _US_美国_81
+      - 🇺🇲 _US_美国_151
+      - 🇺🇲 _US_美国_131
+      - 🇺🇲 _US_美国_243
+      - 🇺🇲 _US_美国_254
+      - 🇫🇷 _FR_法国_6
+      - 🇭🇰 _HK_香港_14
+      - 🇺🇲 _US_美国_123
+      - 🇺🇲 _US_美国_136
+      - 🇳🇱 _NL_荷兰_25
   - name: 📷 Ins&FB&Twitter
     type: select
     proxies:
       - 🚀 手动切换
-      - 🇺🇲 US美国20
-      - 🇺🇲 US美国 16.2MB/s
-      - 🇨🇦 CA加拿大2
-      - 🇺🇲 US美国36 239.4KB/s
-      - 🇺🇲 US美国6 21.9MB/s
-      - 🇺🇲 _US_美国_52
-      - 🇺🇲 _US_美国_31
-      - 🇺🇲 _US_美国_137
-      - 🇺🇲 _US_美国_80
-      - 🇺🇲 _US_美国_124
-      - 🇺🇲 _US_美国_26
-      - 🇺🇲 _US_美国_167
-      - 🇺🇲 _US_美国_133
-      - 🇺🇲 _US_美国_87
-      - 🇺🇲 _US_美国_89
-      - 🇺🇲 _US_美国_206
-      - 🇺🇲 _US_美国_132
-      - 🇺🇲 _US_美国_95
-      - 🇺🇲 _US_美国_103
-      - 🇺🇲 _US_美国_138
-      - 🇳🇱 _NL_荷兰_16
-      - 🇭🇰 _HK_香港_13
-      - 🇺🇲 _US_美国_211
-      - 科技网络 🇺🇸_49
-      - 科技网络 🇺🇸_24
-      - 🇺🇲 _US_美国
-      - 🇺🇲 _US_美国_46
-      - 🇺🇲 _US_美国 2
-      - 🇺🇲 US美国32 507.5KB/s
-      - 🇺🇲 _US_美国_101
-      - 🇺🇲 _US_美国_33
-      - 🇺🇲 _US_美国_131
-      - 🇺🇲 _US_美国_53
-      - 🇺🇲 _US_美国_64
-      - 🇺🇲 _US_美国_120
-      - 科技网络 🇺🇸_54
-      - 🇺🇲 _US_美国_212
-      - 科技网络 🇺🇸_17
-      - 🇺🇲 _US_美国_207
-      - 🇺🇲 _US_美国_96
-      - 🇺🇲 _US_美国_203
-      - 🇺🇲 _US_美国_43
-      - 🇺🇲 _US_美国_25
-      - 🇺🇲 _US_美国_81
-      - 🇺🇲 _US_美国_35
-      - 🇺🇲 _US_美国_155
-      - 🇺🇲 _US_美国 3
-      - 🇺🇲 _US_美国 4
-      - 🇳🇱 NL荷兰4 1.9MB/s
-      - 🇳🇱 NL荷兰 12.6MB/s
-      - 🇳🇱 NL荷兰3 16.7MB/s
-      - 🇺🇲 _US_美国_125
-      - 🇺🇲 _US_美国_197
-      - 🇺🇲 _US_美国_55
-      - 🇺🇲 _US_美国_208
-      - 🇺🇲 _US_美国_69
-      - 🇺🇲 _US_美国_185
-      - 🇺🇲 _US_美国_159
-      - 科技网络 🇺🇸_43
+      - 🇭🇰 _CN_香港_3
+      - 🇺🇲 _US_美国_229
+      - 🇺🇲 _US_美国_113
       - 🇺🇲 _US_美国_214
-      - 🇺🇲 _US_美国_162
-      - 🇺🇲 _US_美国_108
-      - 🇺🇲 _US_美国 5
-      - 🇺🇲 _US_美国_209
-      - 🇺🇲 _US_美国_213
-      - 🇺🇲 _US_美国_61
-      - 🇺🇲 _US_美国_77
-      - 🇺🇲 _US_美国 6
-      - 🇺🇲 _US_美国_63
-      - 🇺🇲 _US_美国_74
+      - 🇺🇲 _US_美国_219
+      - 🇺🇲 _US_美国_212
+      - 🇺🇲 _US_美国_197
+      - 🇺🇲 _US_美国_239
+      - 🇺🇲 _US_美国_246
+      - 🇺🇲 _US_美国_216
+      - 🇺🇲 _US_美国_39
+      - 🇺🇲 _US_美国_174
+      - 🇺🇲 _US_美国_188
+      - 🇸🇬 _SG_新加坡_35
+      - 🇺🇲 _US_美国_184
+      - 🇺🇲 _US_美国_245
+      - 🇺🇲 _US_美国_83
+      - 🇺🇲 _US_美国_106
       - 🇺🇲 _US_美国_164
-      - 🇺🇲 _US_美国_153
+      - 🇺🇲 _US_美国_196
+      - 🇭🇰 _HK_香港_16
+      - 🇺🇲 _US_美国_73
+      - 🇺🇲 _US_美国_161
+      - 🇺🇲 _US_美国_172
+      - 🇺🇲 _US_美国_237
+      - 🇺🇲 _US_美国_70
+      - 🇺🇲 _US_美国_114
+      - 🇺🇲 _US_美国_137
+      - 🇺🇲 _US_美国_156
+      - 🇺🇲 _US_美国_235
+      - 🇫🇷 _FR_法国_7
+      - 🇺🇲 _US_美国_79
+      - 🇺🇲 _US_美国_84
+      - 🇺🇲 _US_美国_111
+      - 🇺🇲 _US_美国_166
+      - 🇺🇲 _US_美国_170
+      - 🇺🇲 _US_美国_228
+      - 🇺🇲 _US_美国_139
+      - 🇺🇲 _US_美国_150
+      - 🇫🇷 _FR_法国_10
+      - 🇳🇱 _NL_荷兰_28
+      - 🇺🇲 _US_美国_116
+      - 🇺🇲 _US_美国_126
+      - 🇺🇲 _US_美国_133
+      - 🇺🇲 _US_美国_154
+      - 🇺🇲 _US_美国_160
+      - 🇭🇰 _HK_香港_20
+      - 🇭🇰 _HK_香港_22
+      - _SC_塞舌尔_30
+      - 🇺🇲 _US_美国_152
+      - 🇺🇲 _US_美国_157
+      - 🇺🇲 _US_美国_181
+      - 🇺🇲 _US_美国_187
+      - 🇸🇬 _SG_新加坡_32
+      - 🇺🇲 _US_美国_89
+      - 🇺🇲 _US_美国_110
+      - 🇺🇲 _US_美国_165
+      - 🇺🇲 _US_美国_223
+      - 🇺🇲 _US_美国_182
+      - 🇺🇲 _US_美国_241
+      - 🇸🇬 _SG_新加坡_34
+      - 🇺🇲 _US_美国_103
+      - 🇺🇲 _US_美国_179
+      - 🇺🇲 _US_美国_208
+      - 🇺🇲 _US_美国_81
+      - 🇺🇲 _US_美国_151
+      - 🇺🇲 _US_美国_131
+      - 🇺🇲 _US_美国_243
+      - 🇺🇲 _US_美国_254
+      - 🇫🇷 _FR_法国_6
+      - 🇭🇰 _HK_香港_14
+      - 🇺🇲 _US_美国_123
+      - 🇺🇲 _US_美国_136
+      - 🇳🇱 _NL_荷兰_25
   - name: 🎮️ 游戏平台
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 手动切换
-      - 🇺🇲 US美国20
-      - 🇺🇲 US美国 16.2MB/s
-      - 🇨🇦 CA加拿大2
-      - 🇺🇲 US美国36 239.4KB/s
-      - 🇺🇲 US美国6 21.9MB/s
-      - 🇺🇲 _US_美国_52
-      - 🇺🇲 _US_美国_31
-      - 🇺🇲 _US_美国_137
-      - 🇺🇲 _US_美国_80
-      - 🇺🇲 _US_美国_124
-      - 🇺🇲 _US_美国_26
-      - 🇺🇲 _US_美国_167
-      - 🇺🇲 _US_美国_133
-      - 🇺🇲 _US_美国_87
-      - 🇺🇲 _US_美国_89
-      - 🇺🇲 _US_美国_206
-      - 🇺🇲 _US_美国_132
-      - 🇺🇲 _US_美国_95
-      - 🇺🇲 _US_美国_103
-      - 🇺🇲 _US_美国_138
-      - 🇳🇱 _NL_荷兰_16
-      - 🇭🇰 _HK_香港_13
-      - 🇺🇲 _US_美国_211
-      - 科技网络 🇺🇸_49
-      - 科技网络 🇺🇸_24
-      - 🇺🇲 _US_美国
-      - 🇺🇲 _US_美国_46
-      - 🇺🇲 _US_美国 2
-      - 🇺🇲 US美国32 507.5KB/s
-      - 🇺🇲 _US_美国_101
-      - 🇺🇲 _US_美国_33
-      - 🇺🇲 _US_美国_131
-      - 🇺🇲 _US_美国_53
-      - 🇺🇲 _US_美国_64
-      - 🇺🇲 _US_美国_120
-      - 科技网络 🇺🇸_54
-      - 🇺🇲 _US_美国_212
-      - 科技网络 🇺🇸_17
-      - 🇺🇲 _US_美国_207
-      - 🇺🇲 _US_美国_96
-      - 🇺🇲 _US_美国_203
-      - 🇺🇲 _US_美国_43
-      - 🇺🇲 _US_美国_25
-      - 🇺🇲 _US_美国_81
-      - 🇺🇲 _US_美国_35
-      - 🇺🇲 _US_美国_155
-      - 🇺🇲 _US_美国 3
-      - 🇺🇲 _US_美国 4
-      - 🇳🇱 NL荷兰4 1.9MB/s
-      - 🇳🇱 NL荷兰 12.6MB/s
-      - 🇳🇱 NL荷兰3 16.7MB/s
-      - 🇺🇲 _US_美国_125
-      - 🇺🇲 _US_美国_197
-      - 🇺🇲 _US_美国_55
-      - 🇺🇲 _US_美国_208
-      - 🇺🇲 _US_美国_69
-      - 🇺🇲 _US_美国_185
-      - 🇺🇲 _US_美国_159
-      - 科技网络 🇺🇸_43
+      - 🇭🇰 _CN_香港_3
+      - 🇺🇲 _US_美国_229
+      - 🇺🇲 _US_美国_113
       - 🇺🇲 _US_美国_214
-      - 🇺🇲 _US_美国_162
-      - 🇺🇲 _US_美国_108
-      - 🇺🇲 _US_美国 5
-      - 🇺🇲 _US_美国_209
-      - 🇺🇲 _US_美国_213
-      - 🇺🇲 _US_美国_61
-      - 🇺🇲 _US_美国_77
-      - 🇺🇲 _US_美国 6
-      - 🇺🇲 _US_美国_63
-      - 🇺🇲 _US_美国_74
+      - 🇺🇲 _US_美国_219
+      - 🇺🇲 _US_美国_212
+      - 🇺🇲 _US_美国_197
+      - 🇺🇲 _US_美国_239
+      - 🇺🇲 _US_美国_246
+      - 🇺🇲 _US_美国_216
+      - 🇺🇲 _US_美国_39
+      - 🇺🇲 _US_美国_174
+      - 🇺🇲 _US_美国_188
+      - 🇸🇬 _SG_新加坡_35
+      - 🇺🇲 _US_美国_184
+      - 🇺🇲 _US_美国_245
+      - 🇺🇲 _US_美国_83
+      - 🇺🇲 _US_美国_106
       - 🇺🇲 _US_美国_164
-      - 🇺🇲 _US_美国_153
+      - 🇺🇲 _US_美国_196
+      - 🇭🇰 _HK_香港_16
+      - 🇺🇲 _US_美国_73
+      - 🇺🇲 _US_美国_161
+      - 🇺🇲 _US_美国_172
+      - 🇺🇲 _US_美国_237
+      - 🇺🇲 _US_美国_70
+      - 🇺🇲 _US_美国_114
+      - 🇺🇲 _US_美国_137
+      - 🇺🇲 _US_美国_156
+      - 🇺🇲 _US_美国_235
+      - 🇫🇷 _FR_法国_7
+      - 🇺🇲 _US_美国_79
+      - 🇺🇲 _US_美国_84
+      - 🇺🇲 _US_美国_111
+      - 🇺🇲 _US_美国_166
+      - 🇺🇲 _US_美国_170
+      - 🇺🇲 _US_美国_228
+      - 🇺🇲 _US_美国_139
+      - 🇺🇲 _US_美国_150
+      - 🇫🇷 _FR_法国_10
+      - 🇳🇱 _NL_荷兰_28
+      - 🇺🇲 _US_美国_116
+      - 🇺🇲 _US_美国_126
+      - 🇺🇲 _US_美国_133
+      - 🇺🇲 _US_美国_154
+      - 🇺🇲 _US_美国_160
+      - 🇭🇰 _HK_香港_20
+      - 🇭🇰 _HK_香港_22
+      - _SC_塞舌尔_30
+      - 🇺🇲 _US_美国_152
+      - 🇺🇲 _US_美国_157
+      - 🇺🇲 _US_美国_181
+      - 🇺🇲 _US_美国_187
+      - 🇸🇬 _SG_新加坡_32
+      - 🇺🇲 _US_美国_89
+      - 🇺🇲 _US_美国_110
+      - 🇺🇲 _US_美国_165
+      - 🇺🇲 _US_美国_223
+      - 🇺🇲 _US_美国_182
+      - 🇺🇲 _US_美国_241
+      - 🇸🇬 _SG_新加坡_34
+      - 🇺🇲 _US_美国_103
+      - 🇺🇲 _US_美国_179
+      - 🇺🇲 _US_美国_208
+      - 🇺🇲 _US_美国_81
+      - 🇺🇲 _US_美国_151
+      - 🇺🇲 _US_美国_131
+      - 🇺🇲 _US_美国_243
+      - 🇺🇲 _US_美国_254
+      - 🇫🇷 _FR_法国_6
+      - 🇭🇰 _HK_香港_14
+      - 🇺🇲 _US_美国_123
+      - 🇺🇲 _US_美国_136
+      - 🇳🇱 _NL_荷兰_25
   - name: 🤖 ChatGPT（测试中）
     type: select
     proxies:
       - 🚀 手动切换
-      - 🇺🇲 US美国20
-      - 🇺🇲 US美国 16.2MB/s
-      - 🇨🇦 CA加拿大2
-      - 🇺🇲 US美国36 239.4KB/s
-      - 🇺🇲 US美国6 21.9MB/s
-      - 🇺🇲 _US_美国_52
-      - 🇺🇲 _US_美国_31
-      - 🇺🇲 _US_美国_137
-      - 🇺🇲 _US_美国_80
-      - 🇺🇲 _US_美国_124
-      - 🇺🇲 _US_美国_26
-      - 🇺🇲 _US_美国_167
-      - 🇺🇲 _US_美国_133
-      - 🇺🇲 _US_美国_87
-      - 🇺🇲 _US_美国_89
-      - 🇺🇲 _US_美国_206
-      - 🇺🇲 _US_美国_132
-      - 🇺🇲 _US_美国_95
-      - 🇺🇲 _US_美国_103
-      - 🇺🇲 _US_美国_138
-      - 🇳🇱 _NL_荷兰_16
-      - 🇭🇰 _HK_香港_13
-      - 🇺🇲 _US_美国_211
-      - 科技网络 🇺🇸_49
-      - 科技网络 🇺🇸_24
-      - 🇺🇲 _US_美国
-      - 🇺🇲 _US_美国_46
-      - 🇺🇲 _US_美国 2
-      - 🇺🇲 US美国32 507.5KB/s
-      - 🇺🇲 _US_美国_101
-      - 🇺🇲 _US_美国_33
-      - 🇺🇲 _US_美国_131
-      - 🇺🇲 _US_美国_53
-      - 🇺🇲 _US_美国_64
-      - 🇺🇲 _US_美国_120
-      - 科技网络 🇺🇸_54
-      - 🇺🇲 _US_美国_212
-      - 科技网络 🇺🇸_17
-      - 🇺🇲 _US_美国_207
-      - 🇺🇲 _US_美国_96
-      - 🇺🇲 _US_美国_203
-      - 🇺🇲 _US_美国_43
-      - 🇺🇲 _US_美国_25
-      - 🇺🇲 _US_美国_81
-      - 🇺🇲 _US_美国_35
-      - 🇺🇲 _US_美国_155
-      - 🇺🇲 _US_美国 3
-      - 🇺🇲 _US_美国 4
-      - 🇳🇱 NL荷兰4 1.9MB/s
-      - 🇳🇱 NL荷兰 12.6MB/s
-      - 🇳🇱 NL荷兰3 16.7MB/s
-      - 🇺🇲 _US_美国_125
-      - 🇺🇲 _US_美国_197
-      - 🇺🇲 _US_美国_55
-      - 🇺🇲 _US_美国_208
-      - 🇺🇲 _US_美国_69
-      - 🇺🇲 _US_美国_185
-      - 🇺🇲 _US_美国_159
-      - 科技网络 🇺🇸_43
+      - 🇭🇰 _CN_香港_3
+      - 🇺🇲 _US_美国_229
+      - 🇺🇲 _US_美国_113
       - 🇺🇲 _US_美国_214
-      - 🇺🇲 _US_美国_162
-      - 🇺🇲 _US_美国_108
-      - 🇺🇲 _US_美国 5
-      - 🇺🇲 _US_美国_209
-      - 🇺🇲 _US_美国_213
-      - 🇺🇲 _US_美国_61
-      - 🇺🇲 _US_美国_77
-      - 🇺🇲 _US_美国 6
-      - 🇺🇲 _US_美国_63
-      - 🇺🇲 _US_美国_74
+      - 🇺🇲 _US_美国_219
+      - 🇺🇲 _US_美国_212
+      - 🇺🇲 _US_美国_197
+      - 🇺🇲 _US_美国_239
+      - 🇺🇲 _US_美国_246
+      - 🇺🇲 _US_美国_216
+      - 🇺🇲 _US_美国_39
+      - 🇺🇲 _US_美国_174
+      - 🇺🇲 _US_美国_188
+      - 🇸🇬 _SG_新加坡_35
+      - 🇺🇲 _US_美国_184
+      - 🇺🇲 _US_美国_245
+      - 🇺🇲 _US_美国_83
+      - 🇺🇲 _US_美国_106
       - 🇺🇲 _US_美国_164
-      - 🇺🇲 _US_美国_153
+      - 🇺🇲 _US_美国_196
+      - 🇭🇰 _HK_香港_16
+      - 🇺🇲 _US_美国_73
+      - 🇺🇲 _US_美国_161
+      - 🇺🇲 _US_美国_172
+      - 🇺🇲 _US_美国_237
+      - 🇺🇲 _US_美国_70
+      - 🇺🇲 _US_美国_114
+      - 🇺🇲 _US_美国_137
+      - 🇺🇲 _US_美国_156
+      - 🇺🇲 _US_美国_235
+      - 🇫🇷 _FR_法国_7
+      - 🇺🇲 _US_美国_79
+      - 🇺🇲 _US_美国_84
+      - 🇺🇲 _US_美国_111
+      - 🇺🇲 _US_美国_166
+      - 🇺🇲 _US_美国_170
+      - 🇺🇲 _US_美国_228
+      - 🇺🇲 _US_美国_139
+      - 🇺🇲 _US_美国_150
+      - 🇫🇷 _FR_法国_10
+      - 🇳🇱 _NL_荷兰_28
+      - 🇺🇲 _US_美国_116
+      - 🇺🇲 _US_美国_126
+      - 🇺🇲 _US_美国_133
+      - 🇺🇲 _US_美国_154
+      - 🇺🇲 _US_美国_160
+      - 🇭🇰 _HK_香港_20
+      - 🇭🇰 _HK_香港_22
+      - _SC_塞舌尔_30
+      - 🇺🇲 _US_美国_152
+      - 🇺🇲 _US_美国_157
+      - 🇺🇲 _US_美国_181
+      - 🇺🇲 _US_美国_187
+      - 🇸🇬 _SG_新加坡_32
+      - 🇺🇲 _US_美国_89
+      - 🇺🇲 _US_美国_110
+      - 🇺🇲 _US_美国_165
+      - 🇺🇲 _US_美国_223
+      - 🇺🇲 _US_美国_182
+      - 🇺🇲 _US_美国_241
+      - 🇸🇬 _SG_新加坡_34
+      - 🇺🇲 _US_美国_103
+      - 🇺🇲 _US_美国_179
+      - 🇺🇲 _US_美国_208
+      - 🇺🇲 _US_美国_81
+      - 🇺🇲 _US_美国_151
+      - 🇺🇲 _US_美国_131
+      - 🇺🇲 _US_美国_243
+      - 🇺🇲 _US_美国_254
+      - 🇫🇷 _FR_法国_6
+      - 🇭🇰 _HK_香港_14
+      - 🇺🇲 _US_美国_123
+      - 🇺🇲 _US_美国_136
+      - 🇳🇱 _NL_荷兰_25
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 手动切换
-      - 🇺🇲 US美国20
-      - 🇺🇲 US美国 16.2MB/s
-      - 🇨🇦 CA加拿大2
-      - 🇺🇲 US美国36 239.4KB/s
-      - 🇺🇲 US美国6 21.9MB/s
-      - 🇺🇲 _US_美国_52
-      - 🇺🇲 _US_美国_31
-      - 🇺🇲 _US_美国_137
-      - 🇺🇲 _US_美国_80
-      - 🇺🇲 _US_美国_124
-      - 🇺🇲 _US_美国_26
-      - 🇺🇲 _US_美国_167
-      - 🇺🇲 _US_美国_133
-      - 🇺🇲 _US_美国_87
-      - 🇺🇲 _US_美国_89
-      - 🇺🇲 _US_美国_206
-      - 🇺🇲 _US_美国_132
-      - 🇺🇲 _US_美国_95
-      - 🇺🇲 _US_美国_103
-      - 🇺🇲 _US_美国_138
-      - 🇳🇱 _NL_荷兰_16
-      - 🇭🇰 _HK_香港_13
-      - 🇺🇲 _US_美国_211
-      - 科技网络 🇺🇸_49
-      - 科技网络 🇺🇸_24
-      - 🇺🇲 _US_美国
-      - 🇺🇲 _US_美国_46
-      - 🇺🇲 _US_美国 2
-      - 🇺🇲 US美国32 507.5KB/s
-      - 🇺🇲 _US_美国_101
-      - 🇺🇲 _US_美国_33
-      - 🇺🇲 _US_美国_131
-      - 🇺🇲 _US_美国_53
-      - 🇺🇲 _US_美国_64
-      - 🇺🇲 _US_美国_120
-      - 科技网络 🇺🇸_54
-      - 🇺🇲 _US_美国_212
-      - 科技网络 🇺🇸_17
-      - 🇺🇲 _US_美国_207
-      - 🇺🇲 _US_美国_96
-      - 🇺🇲 _US_美国_203
-      - 🇺🇲 _US_美国_43
-      - 🇺🇲 _US_美国_25
-      - 🇺🇲 _US_美国_81
-      - 🇺🇲 _US_美国_35
-      - 🇺🇲 _US_美国_155
-      - 🇺🇲 _US_美国 3
-      - 🇺🇲 _US_美国 4
-      - 🇳🇱 NL荷兰4 1.9MB/s
-      - 🇳🇱 NL荷兰 12.6MB/s
-      - 🇳🇱 NL荷兰3 16.7MB/s
-      - 🇺🇲 _US_美国_125
-      - 🇺🇲 _US_美国_197
-      - 🇺🇲 _US_美国_55
-      - 🇺🇲 _US_美国_208
-      - 🇺🇲 _US_美国_69
-      - 🇺🇲 _US_美国_185
-      - 🇺🇲 _US_美国_159
-      - 科技网络 🇺🇸_43
+      - 🇭🇰 _CN_香港_3
+      - 🇺🇲 _US_美国_229
+      - 🇺🇲 _US_美国_113
       - 🇺🇲 _US_美国_214
-      - 🇺🇲 _US_美国_162
-      - 🇺🇲 _US_美国_108
-      - 🇺🇲 _US_美国 5
-      - 🇺🇲 _US_美国_209
-      - 🇺🇲 _US_美国_213
-      - 🇺🇲 _US_美国_61
-      - 🇺🇲 _US_美国_77
-      - 🇺🇲 _US_美国 6
-      - 🇺🇲 _US_美国_63
-      - 🇺🇲 _US_美国_74
+      - 🇺🇲 _US_美国_219
+      - 🇺🇲 _US_美国_212
+      - 🇺🇲 _US_美国_197
+      - 🇺🇲 _US_美国_239
+      - 🇺🇲 _US_美国_246
+      - 🇺🇲 _US_美国_216
+      - 🇺🇲 _US_美国_39
+      - 🇺🇲 _US_美国_174
+      - 🇺🇲 _US_美国_188
+      - 🇸🇬 _SG_新加坡_35
+      - 🇺🇲 _US_美国_184
+      - 🇺🇲 _US_美国_245
+      - 🇺🇲 _US_美国_83
+      - 🇺🇲 _US_美国_106
       - 🇺🇲 _US_美国_164
-      - 🇺🇲 _US_美国_153
+      - 🇺🇲 _US_美国_196
+      - 🇭🇰 _HK_香港_16
+      - 🇺🇲 _US_美国_73
+      - 🇺🇲 _US_美国_161
+      - 🇺🇲 _US_美国_172
+      - 🇺🇲 _US_美国_237
+      - 🇺🇲 _US_美国_70
+      - 🇺🇲 _US_美国_114
+      - 🇺🇲 _US_美国_137
+      - 🇺🇲 _US_美国_156
+      - 🇺🇲 _US_美国_235
+      - 🇫🇷 _FR_法国_7
+      - 🇺🇲 _US_美国_79
+      - 🇺🇲 _US_美国_84
+      - 🇺🇲 _US_美国_111
+      - 🇺🇲 _US_美国_166
+      - 🇺🇲 _US_美国_170
+      - 🇺🇲 _US_美国_228
+      - 🇺🇲 _US_美国_139
+      - 🇺🇲 _US_美国_150
+      - 🇫🇷 _FR_法国_10
+      - 🇳🇱 _NL_荷兰_28
+      - 🇺🇲 _US_美国_116
+      - 🇺🇲 _US_美国_126
+      - 🇺🇲 _US_美国_133
+      - 🇺🇲 _US_美国_154
+      - 🇺🇲 _US_美国_160
+      - 🇭🇰 _HK_香港_20
+      - 🇭🇰 _HK_香港_22
+      - _SC_塞舌尔_30
+      - 🇺🇲 _US_美国_152
+      - 🇺🇲 _US_美国_157
+      - 🇺🇲 _US_美国_181
+      - 🇺🇲 _US_美国_187
+      - 🇸🇬 _SG_新加坡_32
+      - 🇺🇲 _US_美国_89
+      - 🇺🇲 _US_美国_110
+      - 🇺🇲 _US_美国_165
+      - 🇺🇲 _US_美国_223
+      - 🇺🇲 _US_美国_182
+      - 🇺🇲 _US_美国_241
+      - 🇸🇬 _SG_新加坡_34
+      - 🇺🇲 _US_美国_103
+      - 🇺🇲 _US_美国_179
+      - 🇺🇲 _US_美国_208
+      - 🇺🇲 _US_美国_81
+      - 🇺🇲 _US_美国_151
+      - 🇺🇲 _US_美国_131
+      - 🇺🇲 _US_美国_243
+      - 🇺🇲 _US_美国_254
+      - 🇫🇷 _FR_法国_6
+      - 🇭🇰 _HK_香港_14
+      - 🇺🇲 _US_美国_123
+      - 🇺🇲 _US_美国_136
+      - 🇳🇱 _NL_荷兰_25
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 手动切换
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇲 US美国20
-      - 🇺🇲 US美国 16.2MB/s
-      - 🇨🇦 CA加拿大2
-      - 🇺🇲 US美国36 239.4KB/s
-      - 🇺🇲 US美国6 21.9MB/s
-      - 🇺🇲 _US_美国_52
-      - 🇺🇲 _US_美国_31
-      - 🇺🇲 _US_美国_137
-      - 🇺🇲 _US_美国_80
-      - 🇺🇲 _US_美国_124
-      - 🇺🇲 _US_美国_26
-      - 🇺🇲 _US_美国_167
-      - 🇺🇲 _US_美国_133
-      - 🇺🇲 _US_美国_87
-      - 🇺🇲 _US_美国_89
-      - 🇺🇲 _US_美国_206
-      - 🇺🇲 _US_美国_132
-      - 🇺🇲 _US_美国_95
-      - 🇺🇲 _US_美国_103
-      - 🇺🇲 _US_美国_138
-      - 🇳🇱 _NL_荷兰_16
-      - 🇭🇰 _HK_香港_13
-      - 🇺🇲 _US_美国_211
-      - 科技网络 🇺🇸_49
-      - 科技网络 🇺🇸_24
-      - 🇺🇲 _US_美国
-      - 🇺🇲 _US_美国_46
-      - 🇺🇲 _US_美国 2
-      - 🇺🇲 US美国32 507.5KB/s
-      - 🇺🇲 _US_美国_101
-      - 🇺🇲 _US_美国_33
-      - 🇺🇲 _US_美国_131
-      - 🇺🇲 _US_美国_53
-      - 🇺🇲 _US_美国_64
-      - 🇺🇲 _US_美国_120
-      - 科技网络 🇺🇸_54
-      - 🇺🇲 _US_美国_212
-      - 科技网络 🇺🇸_17
-      - 🇺🇲 _US_美国_207
-      - 🇺🇲 _US_美国_96
-      - 🇺🇲 _US_美国_203
-      - 🇺🇲 _US_美国_43
-      - 🇺🇲 _US_美国_25
-      - 🇺🇲 _US_美国_81
-      - 🇺🇲 _US_美国_35
-      - 🇺🇲 _US_美国_155
-      - 🇺🇲 _US_美国 3
-      - 🇺🇲 _US_美国 4
-      - 🇳🇱 NL荷兰4 1.9MB/s
-      - 🇳🇱 NL荷兰 12.6MB/s
-      - 🇳🇱 NL荷兰3 16.7MB/s
-      - 🇺🇲 _US_美国_125
-      - 🇺🇲 _US_美国_197
-      - 🇺🇲 _US_美国_55
-      - 🇺🇲 _US_美国_208
-      - 🇺🇲 _US_美国_69
-      - 🇺🇲 _US_美国_185
-      - 🇺🇲 _US_美国_159
-      - 科技网络 🇺🇸_43
+      - 🇭🇰 _CN_香港_3
+      - 🇺🇲 _US_美国_229
+      - 🇺🇲 _US_美国_113
       - 🇺🇲 _US_美国_214
-      - 🇺🇲 _US_美国_162
-      - 🇺🇲 _US_美国_108
-      - 🇺🇲 _US_美国 5
-      - 🇺🇲 _US_美国_209
-      - 🇺🇲 _US_美国_213
-      - 🇺🇲 _US_美国_61
-      - 🇺🇲 _US_美国_77
-      - 🇺🇲 _US_美国 6
-      - 🇺🇲 _US_美国_63
-      - 🇺🇲 _US_美国_74
+      - 🇺🇲 _US_美国_219
+      - 🇺🇲 _US_美国_212
+      - 🇺🇲 _US_美国_197
+      - 🇺🇲 _US_美国_239
+      - 🇺🇲 _US_美国_246
+      - 🇺🇲 _US_美国_216
+      - 🇺🇲 _US_美国_39
+      - 🇺🇲 _US_美国_174
+      - 🇺🇲 _US_美国_188
+      - 🇸🇬 _SG_新加坡_35
+      - 🇺🇲 _US_美国_184
+      - 🇺🇲 _US_美国_245
+      - 🇺🇲 _US_美国_83
+      - 🇺🇲 _US_美国_106
       - 🇺🇲 _US_美国_164
-      - 🇺🇲 _US_美国_153
+      - 🇺🇲 _US_美国_196
+      - 🇭🇰 _HK_香港_16
+      - 🇺🇲 _US_美国_73
+      - 🇺🇲 _US_美国_161
+      - 🇺🇲 _US_美国_172
+      - 🇺🇲 _US_美国_237
+      - 🇺🇲 _US_美国_70
+      - 🇺🇲 _US_美国_114
+      - 🇺🇲 _US_美国_137
+      - 🇺🇲 _US_美国_156
+      - 🇺🇲 _US_美国_235
+      - 🇫🇷 _FR_法国_7
+      - 🇺🇲 _US_美国_79
+      - 🇺🇲 _US_美国_84
+      - 🇺🇲 _US_美国_111
+      - 🇺🇲 _US_美国_166
+      - 🇺🇲 _US_美国_170
+      - 🇺🇲 _US_美国_228
+      - 🇺🇲 _US_美国_139
+      - 🇺🇲 _US_美国_150
+      - 🇫🇷 _FR_法国_10
+      - 🇳🇱 _NL_荷兰_28
+      - 🇺🇲 _US_美国_116
+      - 🇺🇲 _US_美国_126
+      - 🇺🇲 _US_美国_133
+      - 🇺🇲 _US_美国_154
+      - 🇺🇲 _US_美国_160
+      - 🇭🇰 _HK_香港_20
+      - 🇭🇰 _HK_香港_22
+      - _SC_塞舌尔_30
+      - 🇺🇲 _US_美国_152
+      - 🇺🇲 _US_美国_157
+      - 🇺🇲 _US_美国_181
+      - 🇺🇲 _US_美国_187
+      - 🇸🇬 _SG_新加坡_32
+      - 🇺🇲 _US_美国_89
+      - 🇺🇲 _US_美国_110
+      - 🇺🇲 _US_美国_165
+      - 🇺🇲 _US_美国_223
+      - 🇺🇲 _US_美国_182
+      - 🇺🇲 _US_美国_241
+      - 🇸🇬 _SG_新加坡_34
+      - 🇺🇲 _US_美国_103
+      - 🇺🇲 _US_美国_179
+      - 🇺🇲 _US_美国_208
+      - 🇺🇲 _US_美国_81
+      - 🇺🇲 _US_美国_151
+      - 🇺🇲 _US_美国_131
+      - 🇺🇲 _US_美国_243
+      - 🇺🇲 _US_美国_254
+      - 🇫🇷 _FR_法国_6
+      - 🇭🇰 _HK_香港_14
+      - 🇺🇲 _US_美国_123
+      - 🇺🇲 _US_美国_136
+      - 🇳🇱 _NL_荷兰_25
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 手动切换
-      - 🇺🇲 US美国20
-      - 🇺🇲 US美国 16.2MB/s
-      - 🇨🇦 CA加拿大2
-      - 🇺🇲 US美国36 239.4KB/s
-      - 🇺🇲 US美国6 21.9MB/s
-      - 🇺🇲 _US_美国_52
-      - 🇺🇲 _US_美国_31
-      - 🇺🇲 _US_美国_137
-      - 🇺🇲 _US_美国_80
-      - 🇺🇲 _US_美国_124
-      - 🇺🇲 _US_美国_26
-      - 🇺🇲 _US_美国_167
-      - 🇺🇲 _US_美国_133
-      - 🇺🇲 _US_美国_87
-      - 🇺🇲 _US_美国_89
-      - 🇺🇲 _US_美国_206
-      - 🇺🇲 _US_美国_132
-      - 🇺🇲 _US_美国_95
-      - 🇺🇲 _US_美国_103
-      - 🇺🇲 _US_美国_138
-      - 🇳🇱 _NL_荷兰_16
-      - 🇭🇰 _HK_香港_13
-      - 🇺🇲 _US_美国_211
-      - 科技网络 🇺🇸_49
-      - 科技网络 🇺🇸_24
-      - 🇺🇲 _US_美国
-      - 🇺🇲 _US_美国_46
-      - 🇺🇲 _US_美国 2
-      - 🇺🇲 US美国32 507.5KB/s
-      - 🇺🇲 _US_美国_101
-      - 🇺🇲 _US_美国_33
-      - 🇺🇲 _US_美国_131
-      - 🇺🇲 _US_美国_53
-      - 🇺🇲 _US_美国_64
-      - 🇺🇲 _US_美国_120
-      - 科技网络 🇺🇸_54
-      - 🇺🇲 _US_美国_212
-      - 科技网络 🇺🇸_17
-      - 🇺🇲 _US_美国_207
-      - 🇺🇲 _US_美国_96
-      - 🇺🇲 _US_美国_203
-      - 🇺🇲 _US_美国_43
-      - 🇺🇲 _US_美国_25
-      - 🇺🇲 _US_美国_81
-      - 🇺🇲 _US_美国_35
-      - 🇺🇲 _US_美国_155
-      - 🇺🇲 _US_美国 3
-      - 🇺🇲 _US_美国 4
-      - 🇳🇱 NL荷兰4 1.9MB/s
-      - 🇳🇱 NL荷兰 12.6MB/s
-      - 🇳🇱 NL荷兰3 16.7MB/s
-      - 🇺🇲 _US_美国_125
-      - 🇺🇲 _US_美国_197
-      - 🇺🇲 _US_美国_55
-      - 🇺🇲 _US_美国_208
-      - 🇺🇲 _US_美国_69
-      - 🇺🇲 _US_美国_185
-      - 🇺🇲 _US_美国_159
-      - 科技网络 🇺🇸_43
+      - 🇭🇰 _CN_香港_3
+      - 🇺🇲 _US_美国_229
+      - 🇺🇲 _US_美国_113
       - 🇺🇲 _US_美国_214
-      - 🇺🇲 _US_美国_162
-      - 🇺🇲 _US_美国_108
-      - 🇺🇲 _US_美国 5
-      - 🇺🇲 _US_美国_209
-      - 🇺🇲 _US_美国_213
-      - 🇺🇲 _US_美国_61
-      - 🇺🇲 _US_美国_77
-      - 🇺🇲 _US_美国 6
-      - 🇺🇲 _US_美国_63
-      - 🇺🇲 _US_美国_74
+      - 🇺🇲 _US_美国_219
+      - 🇺🇲 _US_美国_212
+      - 🇺🇲 _US_美国_197
+      - 🇺🇲 _US_美国_239
+      - 🇺🇲 _US_美国_246
+      - 🇺🇲 _US_美国_216
+      - 🇺🇲 _US_美国_39
+      - 🇺🇲 _US_美国_174
+      - 🇺🇲 _US_美国_188
+      - 🇸🇬 _SG_新加坡_35
+      - 🇺🇲 _US_美国_184
+      - 🇺🇲 _US_美国_245
+      - 🇺🇲 _US_美国_83
+      - 🇺🇲 _US_美国_106
       - 🇺🇲 _US_美国_164
-      - 🇺🇲 _US_美国_153
+      - 🇺🇲 _US_美国_196
+      - 🇭🇰 _HK_香港_16
+      - 🇺🇲 _US_美国_73
+      - 🇺🇲 _US_美国_161
+      - 🇺🇲 _US_美国_172
+      - 🇺🇲 _US_美国_237
+      - 🇺🇲 _US_美国_70
+      - 🇺🇲 _US_美国_114
+      - 🇺🇲 _US_美国_137
+      - 🇺🇲 _US_美国_156
+      - 🇺🇲 _US_美国_235
+      - 🇫🇷 _FR_法国_7
+      - 🇺🇲 _US_美国_79
+      - 🇺🇲 _US_美国_84
+      - 🇺🇲 _US_美国_111
+      - 🇺🇲 _US_美国_166
+      - 🇺🇲 _US_美国_170
+      - 🇺🇲 _US_美国_228
+      - 🇺🇲 _US_美国_139
+      - 🇺🇲 _US_美国_150
+      - 🇫🇷 _FR_法国_10
+      - 🇳🇱 _NL_荷兰_28
+      - 🇺🇲 _US_美国_116
+      - 🇺🇲 _US_美国_126
+      - 🇺🇲 _US_美国_133
+      - 🇺🇲 _US_美国_154
+      - 🇺🇲 _US_美国_160
+      - 🇭🇰 _HK_香港_20
+      - 🇭🇰 _HK_香港_22
+      - _SC_塞舌尔_30
+      - 🇺🇲 _US_美国_152
+      - 🇺🇲 _US_美国_157
+      - 🇺🇲 _US_美国_181
+      - 🇺🇲 _US_美国_187
+      - 🇸🇬 _SG_新加坡_32
+      - 🇺🇲 _US_美国_89
+      - 🇺🇲 _US_美国_110
+      - 🇺🇲 _US_美国_165
+      - 🇺🇲 _US_美国_223
+      - 🇺🇲 _US_美国_182
+      - 🇺🇲 _US_美国_241
+      - 🇸🇬 _SG_新加坡_34
+      - 🇺🇲 _US_美国_103
+      - 🇺🇲 _US_美国_179
+      - 🇺🇲 _US_美国_208
+      - 🇺🇲 _US_美国_81
+      - 🇺🇲 _US_美国_151
+      - 🇺🇲 _US_美国_131
+      - 🇺🇲 _US_美国_243
+      - 🇺🇲 _US_美国_254
+      - 🇫🇷 _FR_法国_6
+      - 🇭🇰 _HK_香港_14
+      - 🇺🇲 _US_美国_123
+      - 🇺🇲 _US_美国_136
+      - 🇳🇱 _NL_荷兰_25
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 手动切换
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇲 US美国20
-      - 🇺🇲 US美国 16.2MB/s
-      - 🇨🇦 CA加拿大2
-      - 🇺🇲 US美国36 239.4KB/s
-      - 🇺🇲 US美国6 21.9MB/s
-      - 🇺🇲 _US_美国_52
-      - 🇺🇲 _US_美国_31
-      - 🇺🇲 _US_美国_137
-      - 🇺🇲 _US_美国_80
-      - 🇺🇲 _US_美国_124
-      - 🇺🇲 _US_美国_26
-      - 🇺🇲 _US_美国_167
-      - 🇺🇲 _US_美国_133
-      - 🇺🇲 _US_美国_87
-      - 🇺🇲 _US_美国_89
-      - 🇺🇲 _US_美国_206
-      - 🇺🇲 _US_美国_132
-      - 🇺🇲 _US_美国_95
-      - 🇺🇲 _US_美国_103
-      - 🇺🇲 _US_美国_138
-      - 🇳🇱 _NL_荷兰_16
-      - 🇭🇰 _HK_香港_13
-      - 🇺🇲 _US_美国_211
-      - 科技网络 🇺🇸_49
-      - 科技网络 🇺🇸_24
-      - 🇺🇲 _US_美国
-      - 🇺🇲 _US_美国_46
-      - 🇺🇲 _US_美国 2
-      - 🇺🇲 US美国32 507.5KB/s
-      - 🇺🇲 _US_美国_101
-      - 🇺🇲 _US_美国_33
-      - 🇺🇲 _US_美国_131
-      - 🇺🇲 _US_美国_53
-      - 🇺🇲 _US_美国_64
-      - 🇺🇲 _US_美国_120
-      - 科技网络 🇺🇸_54
-      - 🇺🇲 _US_美国_212
-      - 科技网络 🇺🇸_17
-      - 🇺🇲 _US_美国_207
-      - 🇺🇲 _US_美国_96
-      - 🇺🇲 _US_美国_203
-      - 🇺🇲 _US_美国_43
-      - 🇺🇲 _US_美国_25
-      - 🇺🇲 _US_美国_81
-      - 🇺🇲 _US_美国_35
-      - 🇺🇲 _US_美国_155
-      - 🇺🇲 _US_美国 3
-      - 🇺🇲 _US_美国 4
-      - 🇳🇱 NL荷兰4 1.9MB/s
-      - 🇳🇱 NL荷兰 12.6MB/s
-      - 🇳🇱 NL荷兰3 16.7MB/s
-      - 🇺🇲 _US_美国_125
-      - 🇺🇲 _US_美国_197
-      - 🇺🇲 _US_美国_55
-      - 🇺🇲 _US_美国_208
-      - 🇺🇲 _US_美国_69
-      - 🇺🇲 _US_美国_185
-      - 🇺🇲 _US_美国_159
-      - 科技网络 🇺🇸_43
+      - 🇭🇰 _CN_香港_3
+      - 🇺🇲 _US_美国_229
+      - 🇺🇲 _US_美国_113
       - 🇺🇲 _US_美国_214
-      - 🇺🇲 _US_美国_162
-      - 🇺🇲 _US_美国_108
-      - 🇺🇲 _US_美国 5
-      - 🇺🇲 _US_美国_209
-      - 🇺🇲 _US_美国_213
-      - 🇺🇲 _US_美国_61
-      - 🇺🇲 _US_美国_77
-      - 🇺🇲 _US_美国 6
-      - 🇺🇲 _US_美国_63
-      - 🇺🇲 _US_美国_74
+      - 🇺🇲 _US_美国_219
+      - 🇺🇲 _US_美国_212
+      - 🇺🇲 _US_美国_197
+      - 🇺🇲 _US_美国_239
+      - 🇺🇲 _US_美国_246
+      - 🇺🇲 _US_美国_216
+      - 🇺🇲 _US_美国_39
+      - 🇺🇲 _US_美国_174
+      - 🇺🇲 _US_美国_188
+      - 🇸🇬 _SG_新加坡_35
+      - 🇺🇲 _US_美国_184
+      - 🇺🇲 _US_美国_245
+      - 🇺🇲 _US_美国_83
+      - 🇺🇲 _US_美国_106
       - 🇺🇲 _US_美国_164
-      - 🇺🇲 _US_美国_153
+      - 🇺🇲 _US_美国_196
+      - 🇭🇰 _HK_香港_16
+      - 🇺🇲 _US_美国_73
+      - 🇺🇲 _US_美国_161
+      - 🇺🇲 _US_美国_172
+      - 🇺🇲 _US_美国_237
+      - 🇺🇲 _US_美国_70
+      - 🇺🇲 _US_美国_114
+      - 🇺🇲 _US_美国_137
+      - 🇺🇲 _US_美国_156
+      - 🇺🇲 _US_美国_235
+      - 🇫🇷 _FR_法国_7
+      - 🇺🇲 _US_美国_79
+      - 🇺🇲 _US_美国_84
+      - 🇺🇲 _US_美国_111
+      - 🇺🇲 _US_美国_166
+      - 🇺🇲 _US_美国_170
+      - 🇺🇲 _US_美国_228
+      - 🇺🇲 _US_美国_139
+      - 🇺🇲 _US_美国_150
+      - 🇫🇷 _FR_法国_10
+      - 🇳🇱 _NL_荷兰_28
+      - 🇺🇲 _US_美国_116
+      - 🇺🇲 _US_美国_126
+      - 🇺🇲 _US_美国_133
+      - 🇺🇲 _US_美国_154
+      - 🇺🇲 _US_美国_160
+      - 🇭🇰 _HK_香港_20
+      - 🇭🇰 _HK_香港_22
+      - _SC_塞舌尔_30
+      - 🇺🇲 _US_美国_152
+      - 🇺🇲 _US_美国_157
+      - 🇺🇲 _US_美国_181
+      - 🇺🇲 _US_美国_187
+      - 🇸🇬 _SG_新加坡_32
+      - 🇺🇲 _US_美国_89
+      - 🇺🇲 _US_美国_110
+      - 🇺🇲 _US_美国_165
+      - 🇺🇲 _US_美国_223
+      - 🇺🇲 _US_美国_182
+      - 🇺🇲 _US_美国_241
+      - 🇸🇬 _SG_新加坡_34
+      - 🇺🇲 _US_美国_103
+      - 🇺🇲 _US_美国_179
+      - 🇺🇲 _US_美国_208
+      - 🇺🇲 _US_美国_81
+      - 🇺🇲 _US_美国_151
+      - 🇺🇲 _US_美国_131
+      - 🇺🇲 _US_美国_243
+      - 🇺🇲 _US_美国_254
+      - 🇫🇷 _FR_法国_6
+      - 🇭🇰 _HK_香港_14
+      - 🇺🇲 _US_美国_123
+      - 🇺🇲 _US_美国_136
+      - 🇳🇱 _NL_荷兰_25
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
       - 🚀 手动切换
-      - 🇺🇲 US美国20
-      - 🇺🇲 US美国 16.2MB/s
-      - 🇨🇦 CA加拿大2
-      - 🇺🇲 US美国36 239.4KB/s
-      - 🇺🇲 US美国6 21.9MB/s
-      - 🇺🇲 _US_美国_52
-      - 🇺🇲 _US_美国_31
-      - 🇺🇲 _US_美国_137
-      - 🇺🇲 _US_美国_80
-      - 🇺🇲 _US_美国_124
-      - 🇺🇲 _US_美国_26
-      - 🇺🇲 _US_美国_167
-      - 🇺🇲 _US_美国_133
-      - 🇺🇲 _US_美国_87
-      - 🇺🇲 _US_美国_89
-      - 🇺🇲 _US_美国_206
-      - 🇺🇲 _US_美国_132
-      - 🇺🇲 _US_美国_95
-      - 🇺🇲 _US_美国_103
-      - 🇺🇲 _US_美国_138
-      - 🇳🇱 _NL_荷兰_16
-      - 🇭🇰 _HK_香港_13
-      - 🇺🇲 _US_美国_211
-      - 科技网络 🇺🇸_49
-      - 科技网络 🇺🇸_24
-      - 🇺🇲 _US_美国
-      - 🇺🇲 _US_美国_46
-      - 🇺🇲 _US_美国 2
-      - 🇺🇲 US美国32 507.5KB/s
-      - 🇺🇲 _US_美国_101
-      - 🇺🇲 _US_美国_33
-      - 🇺🇲 _US_美国_131
-      - 🇺🇲 _US_美国_53
-      - 🇺🇲 _US_美国_64
-      - 🇺🇲 _US_美国_120
-      - 科技网络 🇺🇸_54
-      - 🇺🇲 _US_美国_212
-      - 科技网络 🇺🇸_17
-      - 🇺🇲 _US_美国_207
-      - 🇺🇲 _US_美国_96
-      - 🇺🇲 _US_美国_203
-      - 🇺🇲 _US_美国_43
-      - 🇺🇲 _US_美国_25
-      - 🇺🇲 _US_美国_81
-      - 🇺🇲 _US_美国_35
-      - 🇺🇲 _US_美国_155
-      - 🇺🇲 _US_美国 3
-      - 🇺🇲 _US_美国 4
-      - 🇳🇱 NL荷兰4 1.9MB/s
-      - 🇳🇱 NL荷兰 12.6MB/s
-      - 🇳🇱 NL荷兰3 16.7MB/s
-      - 🇺🇲 _US_美国_125
-      - 🇺🇲 _US_美国_197
-      - 🇺🇲 _US_美国_55
-      - 🇺🇲 _US_美国_208
-      - 🇺🇲 _US_美国_69
-      - 🇺🇲 _US_美国_185
-      - 🇺🇲 _US_美国_159
-      - 科技网络 🇺🇸_43
+      - 🇭🇰 _CN_香港_3
+      - 🇺🇲 _US_美国_229
+      - 🇺🇲 _US_美国_113
       - 🇺🇲 _US_美国_214
-      - 🇺🇲 _US_美国_162
-      - 🇺🇲 _US_美国_108
-      - 🇺🇲 _US_美国 5
-      - 🇺🇲 _US_美国_209
-      - 🇺🇲 _US_美国_213
-      - 🇺🇲 _US_美国_61
-      - 🇺🇲 _US_美国_77
-      - 🇺🇲 _US_美国 6
-      - 🇺🇲 _US_美国_63
-      - 🇺🇲 _US_美国_74
+      - 🇺🇲 _US_美国_219
+      - 🇺🇲 _US_美国_212
+      - 🇺🇲 _US_美国_197
+      - 🇺🇲 _US_美国_239
+      - 🇺🇲 _US_美国_246
+      - 🇺🇲 _US_美国_216
+      - 🇺🇲 _US_美国_39
+      - 🇺🇲 _US_美国_174
+      - 🇺🇲 _US_美国_188
+      - 🇸🇬 _SG_新加坡_35
+      - 🇺🇲 _US_美国_184
+      - 🇺🇲 _US_美国_245
+      - 🇺🇲 _US_美国_83
+      - 🇺🇲 _US_美国_106
       - 🇺🇲 _US_美国_164
-      - 🇺🇲 _US_美国_153
+      - 🇺🇲 _US_美国_196
+      - 🇭🇰 _HK_香港_16
+      - 🇺🇲 _US_美国_73
+      - 🇺🇲 _US_美国_161
+      - 🇺🇲 _US_美国_172
+      - 🇺🇲 _US_美国_237
+      - 🇺🇲 _US_美国_70
+      - 🇺🇲 _US_美国_114
+      - 🇺🇲 _US_美国_137
+      - 🇺🇲 _US_美国_156
+      - 🇺🇲 _US_美国_235
+      - 🇫🇷 _FR_法国_7
+      - 🇺🇲 _US_美国_79
+      - 🇺🇲 _US_美国_84
+      - 🇺🇲 _US_美国_111
+      - 🇺🇲 _US_美国_166
+      - 🇺🇲 _US_美国_170
+      - 🇺🇲 _US_美国_228
+      - 🇺🇲 _US_美国_139
+      - 🇺🇲 _US_美国_150
+      - 🇫🇷 _FR_法国_10
+      - 🇳🇱 _NL_荷兰_28
+      - 🇺🇲 _US_美国_116
+      - 🇺🇲 _US_美国_126
+      - 🇺🇲 _US_美国_133
+      - 🇺🇲 _US_美国_154
+      - 🇺🇲 _US_美国_160
+      - 🇭🇰 _HK_香港_20
+      - 🇭🇰 _HK_香港_22
+      - _SC_塞舌尔_30
+      - 🇺🇲 _US_美国_152
+      - 🇺🇲 _US_美国_157
+      - 🇺🇲 _US_美国_181
+      - 🇺🇲 _US_美国_187
+      - 🇸🇬 _SG_新加坡_32
+      - 🇺🇲 _US_美国_89
+      - 🇺🇲 _US_美国_110
+      - 🇺🇲 _US_美国_165
+      - 🇺🇲 _US_美国_223
+      - 🇺🇲 _US_美国_182
+      - 🇺🇲 _US_美国_241
+      - 🇸🇬 _SG_新加坡_34
+      - 🇺🇲 _US_美国_103
+      - 🇺🇲 _US_美国_179
+      - 🇺🇲 _US_美国_208
+      - 🇺🇲 _US_美国_81
+      - 🇺🇲 _US_美国_151
+      - 🇺🇲 _US_美国_131
+      - 🇺🇲 _US_美国_243
+      - 🇺🇲 _US_美国_254
+      - 🇫🇷 _FR_法国_6
+      - 🇭🇰 _HK_香港_14
+      - 🇺🇲 _US_美国_123
+      - 🇺🇲 _US_美国_136
+      - 🇳🇱 _NL_荷兰_25
   - name: 🛑 全球拦截
     type: select
     proxies:
@@ -1515,78 +1560,80 @@ proxy-groups:
     proxies:
       - 🚀 手动切换
       - 🎯 全球直连
-      - 🇺🇲 US美国20
-      - 🇺🇲 US美国 16.2MB/s
-      - 🇨🇦 CA加拿大2
-      - 🇺🇲 US美国36 239.4KB/s
-      - 🇺🇲 US美国6 21.9MB/s
-      - 🇺🇲 _US_美国_52
-      - 🇺🇲 _US_美国_31
-      - 🇺🇲 _US_美国_137
-      - 🇺🇲 _US_美国_80
-      - 🇺🇲 _US_美国_124
-      - 🇺🇲 _US_美国_26
-      - 🇺🇲 _US_美国_167
-      - 🇺🇲 _US_美国_133
-      - 🇺🇲 _US_美国_87
-      - 🇺🇲 _US_美国_89
-      - 🇺🇲 _US_美国_206
-      - 🇺🇲 _US_美国_132
-      - 🇺🇲 _US_美国_95
-      - 🇺🇲 _US_美国_103
-      - 🇺🇲 _US_美国_138
-      - 🇳🇱 _NL_荷兰_16
-      - 🇭🇰 _HK_香港_13
-      - 🇺🇲 _US_美国_211
-      - 科技网络 🇺🇸_49
-      - 科技网络 🇺🇸_24
-      - 🇺🇲 _US_美国
-      - 🇺🇲 _US_美国_46
-      - 🇺🇲 _US_美国 2
-      - 🇺🇲 US美国32 507.5KB/s
-      - 🇺🇲 _US_美国_101
-      - 🇺🇲 _US_美国_33
-      - 🇺🇲 _US_美国_131
-      - 🇺🇲 _US_美国_53
-      - 🇺🇲 _US_美国_64
-      - 🇺🇲 _US_美国_120
-      - 科技网络 🇺🇸_54
-      - 🇺🇲 _US_美国_212
-      - 科技网络 🇺🇸_17
-      - 🇺🇲 _US_美国_207
-      - 🇺🇲 _US_美国_96
-      - 🇺🇲 _US_美国_203
-      - 🇺🇲 _US_美国_43
-      - 🇺🇲 _US_美国_25
-      - 🇺🇲 _US_美国_81
-      - 🇺🇲 _US_美国_35
-      - 🇺🇲 _US_美国_155
-      - 🇺🇲 _US_美国 3
-      - 🇺🇲 _US_美国 4
-      - 🇳🇱 NL荷兰4 1.9MB/s
-      - 🇳🇱 NL荷兰 12.6MB/s
-      - 🇳🇱 NL荷兰3 16.7MB/s
-      - 🇺🇲 _US_美国_125
-      - 🇺🇲 _US_美国_197
-      - 🇺🇲 _US_美国_55
-      - 🇺🇲 _US_美国_208
-      - 🇺🇲 _US_美国_69
-      - 🇺🇲 _US_美国_185
-      - 🇺🇲 _US_美国_159
-      - 科技网络 🇺🇸_43
+      - 🇭🇰 _CN_香港_3
+      - 🇺🇲 _US_美国_229
+      - 🇺🇲 _US_美国_113
       - 🇺🇲 _US_美国_214
-      - 🇺🇲 _US_美国_162
-      - 🇺🇲 _US_美国_108
-      - 🇺🇲 _US_美国 5
-      - 🇺🇲 _US_美国_209
-      - 🇺🇲 _US_美国_213
-      - 🇺🇲 _US_美国_61
-      - 🇺🇲 _US_美国_77
-      - 🇺🇲 _US_美国 6
-      - 🇺🇲 _US_美国_63
-      - 🇺🇲 _US_美国_74
+      - 🇺🇲 _US_美国_219
+      - 🇺🇲 _US_美国_212
+      - 🇺🇲 _US_美国_197
+      - 🇺🇲 _US_美国_239
+      - 🇺🇲 _US_美国_246
+      - 🇺🇲 _US_美国_216
+      - 🇺🇲 _US_美国_39
+      - 🇺🇲 _US_美国_174
+      - 🇺🇲 _US_美国_188
+      - 🇸🇬 _SG_新加坡_35
+      - 🇺🇲 _US_美国_184
+      - 🇺🇲 _US_美国_245
+      - 🇺🇲 _US_美国_83
+      - 🇺🇲 _US_美国_106
       - 🇺🇲 _US_美国_164
-      - 🇺🇲 _US_美国_153
+      - 🇺🇲 _US_美国_196
+      - 🇭🇰 _HK_香港_16
+      - 🇺🇲 _US_美国_73
+      - 🇺🇲 _US_美国_161
+      - 🇺🇲 _US_美国_172
+      - 🇺🇲 _US_美国_237
+      - 🇺🇲 _US_美国_70
+      - 🇺🇲 _US_美国_114
+      - 🇺🇲 _US_美国_137
+      - 🇺🇲 _US_美国_156
+      - 🇺🇲 _US_美国_235
+      - 🇫🇷 _FR_法国_7
+      - 🇺🇲 _US_美国_79
+      - 🇺🇲 _US_美国_84
+      - 🇺🇲 _US_美国_111
+      - 🇺🇲 _US_美国_166
+      - 🇺🇲 _US_美国_170
+      - 🇺🇲 _US_美国_228
+      - 🇺🇲 _US_美国_139
+      - 🇺🇲 _US_美国_150
+      - 🇫🇷 _FR_法国_10
+      - 🇳🇱 _NL_荷兰_28
+      - 🇺🇲 _US_美国_116
+      - 🇺🇲 _US_美国_126
+      - 🇺🇲 _US_美国_133
+      - 🇺🇲 _US_美国_154
+      - 🇺🇲 _US_美国_160
+      - 🇭🇰 _HK_香港_20
+      - 🇭🇰 _HK_香港_22
+      - _SC_塞舌尔_30
+      - 🇺🇲 _US_美国_152
+      - 🇺🇲 _US_美国_157
+      - 🇺🇲 _US_美国_181
+      - 🇺🇲 _US_美国_187
+      - 🇸🇬 _SG_新加坡_32
+      - 🇺🇲 _US_美国_89
+      - 🇺🇲 _US_美国_110
+      - 🇺🇲 _US_美国_165
+      - 🇺🇲 _US_美国_223
+      - 🇺🇲 _US_美国_182
+      - 🇺🇲 _US_美国_241
+      - 🇸🇬 _SG_新加坡_34
+      - 🇺🇲 _US_美国_103
+      - 🇺🇲 _US_美国_179
+      - 🇺🇲 _US_美国_208
+      - 🇺🇲 _US_美国_81
+      - 🇺🇲 _US_美国_151
+      - 🇺🇲 _US_美国_131
+      - 🇺🇲 _US_美国_243
+      - 🇺🇲 _US_美国_254
+      - 🇫🇷 _FR_法国_6
+      - 🇭🇰 _HK_香港_14
+      - 🇺🇲 _US_美国_123
+      - 🇺🇲 _US_美国_136
+      - 🇳🇱 _NL_荷兰_25
 rules:
  - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
  - DOMAIN-KEYWORD,admaster,🛑 全球拦截
